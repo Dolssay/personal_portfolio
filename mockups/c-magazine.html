@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tien Nguyen · Travel magazine</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#F5FAFD;--sky:#A9DAF2;--ink:#10223A;--orange:#FF6F1F;--m:clamp(16px,3vw,40px)}
+*{box-sizing:border-box;margin:0}
+body{background:var(--paper);color:var(--ink);font:400 18px/1.55 "Karla",system-ui,sans-serif}
+a{color:inherit}
+img{display:block;max-width:100%}
+/* torn-paper cut-out */
+.torn{clip-path:polygon(0 2%,6% 0,13% 2.5%,21% .5%,30% 2%,38% 0,47% 1.5%,55% .3%,63% 2.2%,72% .4%,80% 1.8%,88% 0,95% 2%,100% .8%,99% 9%,100% 20%,98.6% 33%,100% 47%,99% 60%,100% 74%,98.8% 88%,100% 98%,93% 100%,85% 98.4%,76% 100%,67% 98.6%,58% 100%,49% 98%,40% 99.8%,31% 98.2%,22% 100%,13% 98.5%,5% 100%,0 98%,1.2% 86%,0 72%,1.4% 58%,0 44%,1% 30%,0 16%);background:#fff;padding:14px}
+.torn img{width:100%;object-fit:cover}
+
+/* cover */
+.cover{min-height:100svh;display:grid;grid-template-columns:repeat(12,1fr);grid-template-rows:auto 1fr auto;gap:0 var(--m);padding:20px var(--m) 48px;background:var(--sky);position:relative;overflow:hidden}
+.top{grid-column:1/-1;display:flex;gap:24px;align-items:center}
+.top span{margin-right:auto;font-weight:700}
+.top a{text-decoration:none;font-weight:700}
+.btn{background:var(--orange);color:var(--ink);padding:14px 24px;border-radius:999px;text-decoration:none;font-weight:800;display:inline-block;transition:transform .15s}
+.btn:hover{transform:rotate(-2deg) scale(1.03)}
+h1{grid-column:1/-1;grid-row:2;font:400 clamp(64px,15vw,240px)/.85 "DM Serif Display";letter-spacing:-.04em;color:var(--ink);margin-top:8px;white-space:nowrap}
+.cover-photo{grid-column:8/12;grid-row:3;align-self:start;transform:rotate(3deg);margin-top:24px}
+.cover-photo img{aspect-ratio:3/4}
+.lines{grid-column:1/7;grid-row:3;display:flex;flex-direction:column;gap:22px;align-self:end}
+.lines p{font:400 clamp(24px,2.2vw,32px)/1.1 "DM Serif Display";max-width:20ch}
+.lines p b{font-family:"Karla";font-weight:800;color:#9A3A06;display:block;font-size:18px;line-height:1.4}
+.lines p{max-width:24ch}
+.lines p.who{font:400 20px/1.5 "Karla";max-width:38ch}
+
+/* feature spread */
+.spread{display:grid;grid-template-columns:repeat(12,1fr);gap:var(--m);padding:160px var(--m)}
+.spread h2{grid-column:1/-1;font:400 clamp(56px,8vw,128px)/.88 "DM Serif Display";letter-spacing:-.03em;max-width:14ch}
+.spread .deck{grid-column:1/6;font:400 26px/1.3 "DM Serif Display";margin-top:24px}
+.spread .body{grid-column:1/6;columns:1}
+.spread .body p{margin-top:18px;max-width:60ch}
+.spread .art{grid-column:7/13;grid-row:2/5;position:relative}
+.spread .art .torn:first-child{transform:rotate(-2deg)}
+.spread .art .torn:first-child img{aspect-ratio:4/3}
+.pull{background:var(--orange);color:var(--ink);padding:28px;font:400 30px/1.15 "DM Serif Display";width:62%;margin:-60px 0 0 auto;position:relative;transform:rotate(2deg)}
+.alt{background:var(--ink);color:var(--paper)}
+.alt .art{grid-column:1/7}
+.alt .deck,.alt .body{grid-column:8/13}
+.alt h2{color:var(--sky)}
+
+.brief{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--m);padding:160px var(--m)}
+.brief h2{grid-column:1/-1;font:400 clamp(48px,6vw,96px)/.9 "DM Serif Display"}
+.brief article{background:var(--sky);padding:24px}
+.brief article:nth-child(3){transform:rotate(-1.5deg)}
+.brief article:nth-child(4){background:var(--orange);color:var(--ink);transform:rotate(1.2deg)}
+.brief h3{font:400 30px/1.05 "DM Serif Display";margin-bottom:12px}
+.brief img{margin-top:16px;aspect-ratio:3/2;object-fit:cover;width:100%}
+footer{padding:120px var(--m) 40px;background:var(--sky)}
+footer h2{font:400 clamp(72px,14vw,220px)/.85 "DM Serif Display";letter-spacing:-.04em}
+footer small{display:block;margin-top:64px;font-size:14px;max-width:75ch}
+@media (max-width:820px){
+  .cover-photo,.lines,.spread .deck,.spread .body,.spread .art,.alt .art,.alt .deck,.alt .body{grid-column:1/-1;grid-row:auto}
+  .cover-photo{margin:24px auto 0;width:80%}
+  .brief{grid-template-columns:1fr}
+  .spread .deck,.pull{font-size:22px}.pull{width:90%}
+  .lines p{font-size:22px}
+  .top a:not(.btn){display:none}
+}
+</style>
+</head>
+<body>
+<header class="cover">
+  <div class="top"><span>The Virginia issue · Fall 2026</span><a href="#features">Features</a><a href="#contact">Contact</a><a class="btn" href="mailto:ntien22@vt.edu">Email me</a></div>
+  <h1>Tien Nguyen</h1>
+  <figure class="cover-photo torn"><img src="../assets/me.jpg" alt="Tien Nguyen outdoors under autumn leaves"></figure>
+  <div class="lines">
+    <p class="who">A travel magazine about my work as a Virginia Tech CS student, class of December 2026.</p>
+    <p><b>Blacksburg</b>The SQL gym 170 students worked out in</p>
+    <p><b>Richmond</b>How to catch a phishing site in real time</p>
+    <p><b>Arlington, TX</b>Flying a 3D-printed plane with an Xbox controller</p>
+  </div>
+</header>
+
+<main id="features">
+  <section class="spread">
+    <h2>The SQL gym on the Drillfield</h2>
+    <p class="deck">DBWorkout turns database homework into a workout, with reps, feedback and a leaderboard.</p>
+    <div class="body">
+      <p>I joined Virginia Tech's hAIce Lab in Spring 2025 and became DBWorkout's student lead. I designed its PostgreSQL schema, wrote authentication for 80 API endpoints and shipped its Kubernetes deploys on VT's Rancher.</p>
+      <p>Today I lead a 16-person team adding VT login, Canvas LTI 1.3 and accessibility. Our papers were presented at FIE 2026 and FutureHCI 2026.</p>
+    </div>
+    <div class="art">
+      <figure class="torn"><img src="../assets/virginia-tech-burruss-hall-from-drillfield.jpg" alt="Burruss Hall across the Drillfield, Virginia Tech"></figure>
+      <p class="pull">170 students, 90% said it helped them learn.</p>
+    </div>
+  </section>
+
+  <section class="spread alt">
+    <h2>Orion reads every page</h2>
+    <div class="art">
+      <figure class="torn"><img src="../assets/richmond-virginia-skyline-march-2025.jpg" alt="Richmond skyline over the James River"></figure>
+      <p class="pull">300+ signals, one verdict, and the reason why.</p>
+    </div>
+    <p class="deck">An AI browser extension that spots phishing in real time and teaches you what gave it away.</p>
+    <div class="body">
+      <p>Through the CCI PREP internship, with weekly mentoring from Parsons engineers, I trained XGBoost models on AWS SageMaker and built the Chrome extension that talks to Amazon API Gateway.</p>
+      <p>We demoed it live at the Commonwealth Cyber Initiative Symposium 2026 in Richmond.</p>
+    </div>
+  </section>
+
+  <section class="brief">
+    <h2>Also in this issue</h2>
+    <article><h3>Safe streets, by text</h3><p>A 10-question SMS survey on Twilio for NoVA Families for Safe Streets, with GPT-4o-mini geocoding the answers.</p><img src="../assets/king-street-alexandria-22-september-2023-43.jpg" alt="King Street, Alexandria"></article>
+    <article><h3>Team Valkyrie takes off</h3><p>Control systems for a 3D-printed plane at UT Arlington, steered with an Xbox controller over radio.</p><img src="../assets/university-of-texas-at-arlington-march-2021.jpg" alt="Arlington Hall, UT Arlington"></article>
+    <article><h3>Aircraft design in a browser</h3><p>At the IDOPt Lab I explore design spaces for an eVTOL, a Boeing 777 and an F-16, and visualize tens of thousands of designs on the web.</p><img src="../assets/a-usaf-f-16-pilot-breaking-right.jpg" alt="An F-16 banking over desert"></article>
+  </section>
+</main>
+<footer id="contact">
+  <h2>Write in</h2>
+  <p><a href="mailto:ntien22@vt.edu">ntien22@vt.edu</a> · <a href="https://www.linkedin.com/in/tienthnguyen/">LinkedIn</a></p>
+  <small>Pictures via Wikimedia Commons: Burruss Hall by Eric T Gunther (CC BY 3.0); Richmond skyline by Bdl2001 (CC BY 4.0); King Street by DiscoA340 (CC BY-SA 4.0); Arlington Hall by Michael Barera (CC BY-SA 4.0); F-16 by MSgt. Benjamin Bloker (public domain).</small>
+</footer>
+</body>
+</html>

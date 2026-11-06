@@ -1,0 +1,2596 @@
+{
+ "url": "index.html",
+ "at": "2026-11-06T02:06:21.811Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    1,
+    0.48,
+    0.77,
+    1,
+    0.8,
+    0.69,
+    0.78
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 1,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 5633,
+     "screens": 6.3,
+     "words": 445,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "me.jpg",
+      "symposium-orion-booth.jpg",
+      "scatterplot-matrix.jpg",
+      "violin-by-label.jpg",
+      "aws-certified-solutions-architect-badge.png"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "TIEN NGUYEN",
+     "words": 2,
+     "chars": 11,
+     "lines": 1,
+     "size": 175.7,
+     "vw": 12.2,
+     "font": "Bowlby One",
+     "weight": 400,
+     "tracking": -0.01,
+     "leading": 0.9,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.94,
+     "top": 94,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "TIEN NGUYEN",
+     "words": 2,
+     "lines": 1,
+     "size": 175.7,
+     "font": "Bowlby One"
+    },
+    "headings": [
+     {
+      "text": "TIEN NGUYEN",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 175.7,
+      "vw": 12.2,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 94,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Richmond Catching phishing sites live",
+      "words": 5,
+      "chars": 37,
+      "lines": 2,
+      "size": 30,
+      "vw": 2.1,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 418,
+      "mixedFonts": [
+       "DM Serif Display",
+       "Karla"
+      ],
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Blacksburg 42,630 airliners, one screen",
+      "words": 5,
+      "chars": 39,
+      "lines": 2,
+      "size": 30,
+      "vw": 2.1,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 501,
+      "mixedFonts": [
+       "DM Serif Display",
+       "Karla"
+      ],
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Orion reads every page",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 109.4,
+      "vw": 7.6,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 1084,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "300+ signals, one verdict, and the reason why.",
+      "words": 8,
+      "chars": 46,
+      "lines": 2,
+      "size": 30,
+      "vw": 2.1,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.29,
+      "top": 1774,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Airliners in a browser",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 109.4,
+      "vw": 7.6,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 2194,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "42,630 Boeing 777 designs, read in one sitting.",
+      "words": 8,
+      "chars": 47,
+      "lines": 2,
+      "size": 30,
+      "vw": 2.1,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 3220,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "More work",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 109.4,
+      "vw": 7.6,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 3640,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The SQL gym",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.18,
+      "top": 3843,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "In print",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.18,
+      "top": 3843,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Safe streets, by text",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.18,
+      "top": 3844,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Team Valkyrie takes off",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 30,
+      "vw": 2.1,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.18,
+      "top": 3846,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "AWS certified",
+      "words": 2,
+      "chars": 13,
+      "lines": 2,
+      "size": 109.4,
+      "vw": 7.6,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 4489,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "GET IN TOUCH",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 144,
+      "vw": 10,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 5202,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hiring, collaborating or just curious? ntien22@vt.edu · LinkedIn",
+      "words": 8,
+      "chars": 64,
+      "lines": 2,
+      "size": 30,
+      "vw": 2.1,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 5372,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 15,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 3,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 2
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Karla",
+       "share": 0.8,
+       "mono": false
+      },
+      {
+       "family": "DM Serif Display",
+       "share": 0.19,
+       "mono": false
+      },
+      {
+       "family": "Bowlby One",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      16,
+      18,
+      22,
+      26,
+      30,
+      109,
+      144,
+      176
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Karla",
+      "size": 18,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.2
+     },
+     "measureChars": 60,
+     "max": {
+      "size": 175.7,
+      "vw": 12.2,
+      "font": "Bowlby One",
+      "text": "Tien"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f5fafd",
+     "bodyBgHsl": {
+      "h": 203,
+      "s": 0.67,
+      "l": 0.98
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#a9daf2",
+       "top": 0,
+       "hsl": {
+        "h": 200,
+        "s": 0.74,
+        "l": 0.81
+       }
+      },
+      {
+       "color": "#10223a",
+       "top": 2050,
+       "hsl": {
+        "h": 214,
+        "s": 0.57,
+        "l": 0.15
+       }
+      },
+      {
+       "color": "#d3ecf8",
+       "top": 3496,
+       "hsl": {
+        "h": 199,
+        "s": 0.73,
+        "l": 0.9
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#10223a",
+       "share": 0.74
+      },
+      {
+       "color": "#f5fafd",
+       "share": 0.24
+      },
+      {
+       "color": "#a9daf2",
+       "share": 0.01
+      },
+      {
+       "color": "#9a3a06",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#ff6f1f",
+      "hsl": {
+       "h": 21,
+       "s": 1,
+       "l": 0.56
+      },
+      "fg": "#10223a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": "pill",
+     "height": 50,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Email me"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 3807
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.18
+     },
+     {
+      "type": "bg-image",
+      "ratio": 0.17
+     }
+    ],
+    "nav": {
+     "links": 4,
+     "fixed": false,
+     "height": 940,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bowlby one",
+     "dm serif display",
+     "karla"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 5633,
+    "margins": {
+     "left": 40,
+     "right": 48
+    },
+    "sections": [
+     {
+      "sel": "header.cover",
+      "tag": "header",
+      "top": 0,
+      "height": 940,
+      "words": 43,
+      "media": 1,
+      "middle": 45,
+      "heading": {
+       "text": "Tien",
+       "size": 176,
+       "tag": "h1"
+      },
+      "left": 40,
+      "right": 64,
+      "textLeft": 40,
+      "textRight": 64,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#orion.project.feature",
+      "tag": "section",
+      "top": 940,
+      "height": 1111,
+      "words": 113,
+      "media": 1,
+      "middle": 170,
+      "heading": {
+       "text": "Orion reads every page",
+       "size": 109,
+       "tag": "h2"
+      },
+      "left": 40,
+      "right": 48,
+      "textLeft": 40,
+      "textRight": 86,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#idopt.project.feature",
+      "tag": "section",
+      "top": 2050,
+      "height": 1446,
+      "words": 135,
+      "media": 2,
+      "middle": 159,
+      "heading": {
+       "text": "Airliners in a browser",
+       "size": 109,
+       "tag": "h2"
+      },
+      "left": 40,
+      "right": 41,
+      "textLeft": 40,
+      "textRight": 41,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#notes.wall",
+      "tag": "section",
+      "top": 3496,
+      "height": 746,
+      "words": 108,
+      "media": 0,
+      "middle": 98,
+      "heading": {
+       "text": "More work",
+       "size": 109,
+       "tag": "h2"
+      },
+      "left": 40,
+      "right": 71,
+      "textLeft": 40,
+      "textRight": 71,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#certification.passport",
+      "tag": "section",
+      "top": 4242,
+      "height": 816,
+      "words": 16,
+      "media": 2,
+      "middle": 333,
+      "heading": {
+       "text": "AWS certified",
+       "size": 109,
+       "tag": "h2"
+      },
+      "left": 40,
+      "right": 66,
+      "textLeft": 40,
+      "textRight": 974,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contact",
+      "tag": "footer",
+      "top": 5058,
+      "height": 574,
+      "words": 34,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Get in touch",
+       "size": 144,
+       "tag": "h2"
+      },
+      "left": 40,
+      "right": 294,
+      "textLeft": 40,
+      "textRight": 294,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 1884,
+      "height": 284
+     },
+     {
+      "top": 4064,
+      "height": 376
+     }
+    ],
+    "h1s": [
+     {
+      "text": "TIEN NGUYEN",
+      "size": 176,
+      "top": 94,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 40,
+      "n": 10
+     },
+     {
+      "x": 857,
+      "n": 3
+     },
+     {
+      "x": 65,
+      "n": 2
+     },
+     {
+      "x": 416,
+      "n": 2
+     },
+     {
+      "x": 767,
+      "n": 2
+     },
+     {
+      "x": 1115,
+      "n": 2
+     },
+     {
+      "x": 538,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 22,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.19,
+    "voidBox": {
+     "x": 0,
+     "y": 600,
+     "w": 840,
+     "h": 300
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    1,
+    0.62,
+    0.8,
+    1,
+    1,
+    0.73,
+    0.89
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 1,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 6885,
+     "screens": 6.7,
+     "words": 441,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "me.jpg",
+      "symposium-orion-booth.jpg",
+      "scatterplot-matrix.jpg",
+      "violin-by-label.jpg",
+      "aws-certified-solutions-architect-badge.png"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "TIEN NGUYEN",
+     "words": 2,
+     "chars": 11,
+     "lines": 1,
+     "size": 93.7,
+     "vw": 12.2,
+     "font": "Bowlby One",
+     "weight": 400,
+     "tracking": -0.01,
+     "leading": 0.9,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.94,
+     "top": 94,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "TIEN NGUYEN",
+     "words": 2,
+     "lines": 1,
+     "size": 93.7,
+     "font": "Bowlby One"
+    },
+    "headings": [
+     {
+      "text": "TIEN NGUYEN",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 93.7,
+      "vw": 12.2,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 94,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Richmond Catching phishing sites live",
+      "words": 5,
+      "chars": 37,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.59,
+      "top": 345,
+      "mixedFonts": [
+       "DM Serif Display",
+       "Karla"
+      ],
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Blacksburg 42,630 airliners, one screen",
+      "words": 5,
+      "chars": 39,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.59,
+      "top": 427,
+      "mixedFonts": [
+       "DM Serif Display",
+       "Karla"
+      ],
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Orion reads every page",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 58.4,
+      "vw": 7.6,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 1468,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "An AI browser extension that spots phishing live and shows what gave the page away.",
+      "words": 15,
+      "chars": 83,
+      "lines": 3,
+      "size": 26,
+      "vw": 3.4,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.51,
+      "top": 1621,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "300+ signals, one verdict, and the reason why.",
+      "words": 8,
+      "chars": 46,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.55,
+      "top": 2474,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Airliners in a browser",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 58.4,
+      "vw": 7.6,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 2798,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "At the IDOPt Lab I put aircraft design studies on the web, thousands of designs at a glance.",
+      "words": 18,
+      "chars": 92,
+      "lines": 3,
+      "size": 26,
+      "vw": 3.4,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.51,
+      "top": 2952,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "42,630 Boeing 777 designs, read in one sitting.",
+      "words": 8,
+      "chars": 47,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.63,
+      "top": 4305,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "More work",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 58.4,
+      "vw": 7.6,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 4630,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The SQL gym",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 4787,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Safe streets, by text",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 4788,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "In print",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 5097,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Team Valkyrie takes off",
+      "words": 4,
+      "chars": 23,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 5100,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "AWS certified",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 58.4,
+      "vw": 7.6,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 5512,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "GET IN TOUCH",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 76.8,
+      "vw": 10,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 6515,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hiring, collaborating or just curious? ntien22@vt.edu · LinkedIn",
+      "words": 8,
+      "chars": 64,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.67,
+      "top": 6624,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 17,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 5,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 2
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Karla",
+       "share": 0.8,
+       "mono": false
+      },
+      {
+       "family": "DM Serif Display",
+       "share": 0.2,
+       "mono": false
+      },
+      {
+       "family": "Bowlby One",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      16,
+      18,
+      22,
+      26,
+      30,
+      58,
+      77,
+      94
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Karla",
+      "size": 18,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.2
+     },
+     "measureChars": 71,
+     "max": {
+      "size": 93.7,
+      "vw": 12.2,
+      "font": "Bowlby One",
+      "text": "Tien"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f5fafd",
+     "bodyBgHsl": {
+      "h": 203,
+      "s": 0.67,
+      "l": 0.98
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#a9daf2",
+       "top": 0,
+       "hsl": {
+        "h": 200,
+        "s": 0.74,
+        "l": 0.81
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 520,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#10223a",
+       "top": 2702,
+       "hsl": {
+        "h": 214,
+        "s": 0.57,
+        "l": 0.15
+       }
+      },
+      {
+       "color": "#d3ecf8",
+       "top": 4534,
+       "hsl": {
+        "h": 199,
+        "s": 0.73,
+        "l": 0.9
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#10223a",
+       "share": 0.74
+      },
+      {
+       "color": "#f5fafd",
+       "share": 0.24
+      },
+      {
+       "color": "#a9daf2",
+       "share": 0.01
+      },
+      {
+       "color": "#9a3a06",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#ff6f1f",
+      "hsl": {
+       "h": 21,
+       "s": 1,
+       "l": 0.56
+      },
+      "fg": "#10223a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": "pill",
+     "height": 50,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Email me"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 4750
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.36
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 1372,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bowlby one",
+     "dm serif display",
+     "karla"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 6885,
+    "margins": {
+     "left": 23,
+     "right": 30
+    },
+    "sections": [
+     {
+      "sel": "header.cover",
+      "tag": "header",
+      "top": 0,
+      "height": 1372,
+      "words": 39,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Tien",
+       "size": 94,
+       "tag": "h1"
+      },
+      "left": 23,
+      "right": 47,
+      "textLeft": 23,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#orion.project.feature",
+      "tag": "section",
+      "top": 1372,
+      "height": 1331,
+      "words": 113,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Orion reads every page",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 23,
+      "right": 30,
+      "textLeft": 23,
+      "textRight": 76,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.body.in",
+      "tag": "div",
+      "top": 3049,
+      "height": 337,
+      "words": 94,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 23,
+      "right": 110,
+      "textLeft": 23,
+      "textRight": 110,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.art.screens",
+      "tag": "div",
+      "top": 3434,
+      "height": 1004,
+      "words": 19,
+      "media": 2,
+      "middle": 0,
+      "heading": null,
+      "left": 26,
+      "right": 24,
+      "textLeft": 43,
+      "textRight": 141,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#notes.wall",
+      "tag": "section",
+      "top": 4534,
+      "height": 881,
+      "words": 108,
+      "media": 0,
+      "middle": 80,
+      "heading": {
+       "text": "More work",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 23,
+      "right": 55,
+      "textLeft": 23,
+      "textRight": 55,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#certification.passport",
+      "tag": "section",
+      "top": 5416,
+      "height": 1003,
+      "words": 16,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "AWS certified",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 23,
+      "right": 52,
+      "textLeft": 23,
+      "textRight": 319,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contact",
+      "tag": "footer",
+      "top": 6419,
+      "height": 466,
+      "words": 34,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Get in touch",
+       "size": 77,
+       "tag": "h2"
+      },
+      "left": 23,
+      "right": 42,
+      "textLeft": 23,
+      "textRight": 42,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "TIEN NGUYEN",
+      "size": 94,
+      "top": 94,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 23,
+      "n": 13
+     },
+     {
+      "x": 48,
+      "n": 4
+     },
+     {
+      "x": 421,
+      "n": 4
+     },
+     {
+      "x": 289,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 22,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    1,
+    0.76,
+    0.7,
+    1,
+    1,
+    1,
+    1,
+    0.65,
+    0.91
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 1,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 7161,
+     "screens": 8.5,
+     "words": 441,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "me.jpg",
+      "symposium-orion-booth.jpg",
+      "scatterplot-matrix.jpg",
+      "violin-by-label.jpg",
+      "aws-certified-solutions-architect-badge.png"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "TIEN NGUYEN",
+     "words": 2,
+     "chars": 11,
+     "lines": 2,
+     "size": 74.1,
+     "vw": 19,
+     "font": "Bowlby One",
+     "weight": 400,
+     "tracking": -0.01,
+     "leading": 0.9,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 116,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "TIEN NGUYEN",
+     "words": 2,
+     "lines": 2,
+     "size": 74.1,
+     "font": "Bowlby One"
+    },
+    "headings": [
+     {
+      "text": "TIEN NGUYEN",
+      "words": 2,
+      "chars": 11,
+      "lines": 2,
+      "size": 74.1,
+      "vw": 19,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 116,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Richmond Catching phishing sites live",
+      "words": 5,
+      "chars": 37,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 437,
+      "mixedFonts": [
+       "DM Serif Display",
+       "Karla"
+      ],
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Blacksburg 42,630 airliners, one screen",
+      "words": 5,
+      "chars": 39,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 513,
+      "mixedFonts": [
+       "DM Serif Display",
+       "Karla"
+      ],
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "Orion reads every page",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 48,
+      "vw": 12.3,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 1168,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "An AI browser extension that spots phishing live and shows what gave the page away.",
+      "words": 15,
+      "chars": 83,
+      "lines": 3,
+      "size": 24,
+      "vw": 6.2,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1303,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "300+ signals, one verdict, and the reason why.",
+      "words": 8,
+      "chars": 46,
+      "lines": 4,
+      "size": 24,
+      "vw": 6.2,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.58,
+      "top": 2046,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Airliners in a browser",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 48,
+      "vw": 12.3,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.86,
+      "top": 2408,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "At the IDOPt Lab I put aircraft design studies on the web, thousands of designs at a glance.",
+      "words": 18,
+      "chars": 92,
+      "lines": 3,
+      "size": 24,
+      "vw": 6.2,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2543,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "42,630 Boeing 777 designs, read in one sitting.",
+      "words": 8,
+      "chars": 47,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.93,
+      "top": 4092,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "More work",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4401,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The SQL gym",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 4548,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Safe streets, by text",
+      "words": 4,
+      "chars": 21,
+      "lines": 2,
+      "size": 48,
+      "vw": 12.3,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 4851,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Team Valkyrie takes off",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 48,
+      "vw": 12.3,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 5208,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "In print",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 5589,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "AWS certified",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6023,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "GET IN TOUCH",
+      "words": 3,
+      "chars": 12,
+      "lines": 2,
+      "size": 48,
+      "vw": 12.3,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6710,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hiring, collaborating or just curious? ntien22@vt.edu · LinkedIn",
+      "words": 8,
+      "chars": 64,
+      "lines": 3,
+      "size": 24,
+      "vw": 6.2,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6836,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 17,
+     "maxLines": 4,
+     "over2Lines": 0,
+     "statements": 5,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 2
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Karla",
+       "share": 0.8,
+       "mono": false
+      },
+      {
+       "family": "DM Serif Display",
+       "share": 0.2,
+       "mono": false
+      },
+      {
+       "family": "Bowlby One",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      16,
+      18,
+      20,
+      24,
+      48,
+      74
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Karla",
+      "size": 18,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.2
+     },
+     "measureChars": 40,
+     "max": {
+      "size": 74.1,
+      "vw": 19,
+      "font": "Bowlby One",
+      "text": "Tien"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f5fafd",
+     "bodyBgHsl": {
+      "h": 203,
+      "s": 0.67,
+      "l": 0.98
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#a9daf2",
+       "top": 0,
+       "hsl": {
+        "h": 200,
+        "s": 0.74,
+        "l": 0.81
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 606,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#10223a",
+       "top": 2312,
+       "hsl": {
+        "h": 214,
+        "s": 0.57,
+        "l": 0.15
+       }
+      },
+      {
+       "color": "#d3ecf8",
+       "top": 4305,
+       "hsl": {
+        "h": 199,
+        "s": 0.73,
+        "l": 0.9
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#10223a",
+       "share": 0.74
+      },
+      {
+       "color": "#f5fafd",
+       "share": 0.24
+      },
+      {
+       "color": "#a9daf2",
+       "share": 0.01
+      },
+      {
+       "color": "#9a3a06",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#ff6f1f",
+      "hsl": {
+       "h": 21,
+       "s": 1,
+       "l": 0.56
+      },
+      "fg": "#10223a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": "pill",
+     "height": 72,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Email me"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 4,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.18
+     },
+     {
+      "type": "bg-image",
+      "ratio": 0.15
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 1072,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bowlby one",
+     "dm serif display",
+     "karla"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 7161,
+    "margins": {
+     "left": 16,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "header.cover",
+      "tag": "header",
+      "top": 0,
+      "height": 1072,
+      "words": 39,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Tien",
+       "size": 74,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 27,
+      "textLeft": 16,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#orion.project.feature",
+      "tag": "section",
+      "top": 1072,
+      "height": 1240,
+      "words": 113,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Orion reads every page",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 19,
+      "textLeft": 16,
+      "textRight": 19,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.body.in",
+      "tag": "div",
+      "top": 2633,
+      "height": 552,
+      "words": 94,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 21,
+      "textLeft": 16,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.art.screens",
+      "tag": "div",
+      "top": 3233,
+      "height": 976,
+      "words": 19,
+      "media": 2,
+      "middle": 0,
+      "heading": null,
+      "left": 23,
+      "right": 20,
+      "textLeft": 32,
+      "textRight": 56,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#notes.wall",
+      "tag": "section",
+      "top": 4305,
+      "height": 1622,
+      "words": 108,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "More work",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 43,
+      "textLeft": 16,
+      "textRight": 43,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#certification.passport",
+      "tag": "section",
+      "top": 5927,
+      "height": 687,
+      "words": 16,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "AWS certified",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 30,
+      "textLeft": 16,
+      "textRight": 66,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contact",
+      "tag": "footer",
+      "top": 6614,
+      "height": 548,
+      "words": 34,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Get in touch",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 25,
+      "textLeft": 16,
+      "textRight": 25,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "TIEN NGUYEN",
+      "size": 74,
+      "top": 116,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 14
+     },
+     {
+      "x": 41,
+      "n": 8
+     }
+    ],
+    "leftBlocks": 22,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "mixed-font-headline",
+   "width": 1440,
+   "message": "2 headline(s) switch typeface or to italic mid-line (the \"one italic serif word\" move).",
+   "fix": "Set the whole headline in one face. Emphasis comes from the words.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 1 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\final\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\final\\desktop-page-01.jpg",
+    "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\final\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\final\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\final\\tablet-page-01.jpg",
+    "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\final\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\final\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\final\\mobile-page-01.jpg",
+    "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\final\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tien Nguyen · Fold-out map</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,900&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--ground:#E6F4FB;--sea:#9ED3EE;--land:#F7FBFD;--ink:#0D2A44;--orange:#F2641E;--orange-ink:#A9400A;--m:clamp(16px,3vw,40px)}
+*{box-sizing:border-box;margin:0}
+body{background:var(--ground);color:var(--ink);font:400 18px/1.55 "Instrument Sans",system-ui,sans-serif}
+a{color:inherit}
+img{display:block;max-width:100%}
+.split{display:grid;grid-template-columns:1fr 1fr;padding-inline:var(--m);gap:var(--m)}
+.map{position:sticky;top:0;height:100svh;display:flex;flex-direction:column;justify-content:center;padding-block:24px}
+.map svg{width:100%;height:auto;background:var(--sea)}
+.map .state{fill:var(--land);stroke:var(--ink);stroke-width:2}
+.map .route{fill:none;stroke:var(--orange);stroke-width:4;stroke-dasharray:2 10;stroke-linecap:round}
+.pin circle{fill:var(--ink);transition:r .25s,fill .25s}
+.pin text{font:600 15px "Instrument Sans";fill:var(--ink)}
+.pin.on circle{fill:var(--orange);r:14}
+.pin.on text{font-weight:600;font-size:18px}
+.map .key{margin-top:14px;font-size:16px}
+.col{padding-block:24px 160px}
+nav{display:flex;gap:24px;align-items:center;padding-block:20px}
+nav b{margin-right:auto;font:900 22px "Fraunces"}
+nav a{text-decoration:none;font-weight:600}
+.btn{background:var(--orange);color:var(--ink);text-decoration:none;font-weight:600;padding:14px 24px;display:inline-block;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+h1{font:900 clamp(56px,7vw,112px)/.9 "Fraunces";letter-spacing:-.03em;margin-top:12vh}
+.lede{font-size:22px;margin-top:32px;max-width:36ch}
+.hero-actions{margin-top:28px;display:flex;gap:20px;align-items:center}
+.me{margin-top:56px;width:62%;background:#fff;padding:10px;transform:rotate(-2deg)}
+.stop{padding-top:160px}
+.stop h2{font:900 clamp(40px,4.4vw,68px)/.95 "Fraunces";letter-spacing:-.02em}
+.stop .town{font:600 22px "Fraunces";color:var(--orange-ink);display:block;margin-bottom:10px}
+.stop p{margin-top:20px;max-width:52ch}
+.cut{background:#fff;padding:10px;margin-top:36px;width:88%}
+.cut:nth-of-type(odd){transform:rotate(1.8deg);margin-left:auto}
+.cut:nth-of-type(even){transform:rotate(-1.8deg)}
+.cut img{aspect-ratio:3/2;object-fit:cover;width:100%}
+.cut figcaption{font-size:15px;padding-top:8px}
+.facts{margin-top:28px;display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.facts div{background:var(--land);padding:18px}
+.facts strong{display:block;font:900 40px/1 "Fraunces";color:var(--orange)}
+footer{background:var(--ink);color:var(--ground);padding:120px var(--m) 40px}
+footer h2{font:900 clamp(56px,10vw,160px)/.9 "Fraunces";letter-spacing:-.03em}
+footer p{margin-top:20px}
+footer small{display:block;margin-top:64px;font-size:14px;max-width:75ch}
+@media (max-width:860px){
+  .split{grid-template-columns:1fr}
+  .map{position:sticky;top:0;height:auto;z-index:2;background:var(--ground);padding-block:8px}
+  .map .key{display:none}
+  nav a:not(.btn){display:none}
+}
+</style>
+</head>
+<body>
+<div class="split">
+  <aside class="map" aria-label="Route map of the tour">
+    <svg viewBox="0 0 700 420" role="img" aria-label="Map of Virginia with stops at Blacksburg, Richmond and Alexandria, and an arrow to Arlington, Texas">
+      <polygon class="state" points="22,438 214,439 760,445 756,385 739,349 772,256 700,264 693,203 682,148 640,64 637,93 610,104 576,51 538,75 490,153 427,128 357,229 300,262 271,224 213,272 152,331 72,368 22,438" transform="translate(-10,-60) scale(.92)"/>
+      <path class="route" d="M210 300 C 330 270, 420 250, 530 238 S 600 140, 612 118"/>
+      <path class="route" d="M210 300 C 160 340, 90 380, 30 400"/>
+      <g class="pin" data-stop="dbw"><circle cx="210" cy="300" r="9"/><text x="226" y="318">Blacksburg</text></g>
+      <g class="pin" data-stop="orion"><circle cx="530" cy="238" r="9"/><text x="546" y="256">Richmond</text></g>
+      <g class="pin" data-stop="safe"><circle cx="612" cy="118" r="9"/><text x="560" y="98">Alexandria</text></g>
+      <g class="pin" data-stop="valk"><circle cx="30" cy="400" r="9"/><text x="48" y="404">to Arlington, TX</text></g>
+    </svg>
+    <p class="key">The dotted line is the route. The orange pin is where you are on the tour.</p>
+  </aside>
+
+  <main class="col">
+    <nav><b>Tien Nguyen</b><a href="#tour">Tour</a><a href="#contact">Visitor desk</a><a class="btn" href="mailto:ntien22@vt.edu">Email me</a></nav>
+    <h1>Tien Nguyen's tour map</h1>
+    <p class="lede">Four towns, four projects. Software, data and research from a Virginia Tech CS student, class of December 2026.</p>
+    <div class="hero-actions"><a class="btn" href="#tour">Follow the route</a><a href="#contact">Skip to the visitor desk</a></div>
+    <figure class="me"><img src="../assets/me.jpg" alt="Tien Nguyen outdoors under autumn leaves"></figure>
+
+    <div id="tour">
+      <section class="stop" data-stop="dbw">
+        <span class="town">Blacksburg, Virginia</span>
+        <h2>DBWorkout, an SQL gym</h2>
+        <p>A gamified SQL practice platform with real-time feedback and a class leaderboard. As student lead I built the PostgreSQL schema, auth for 80 API endpoints and the Kubernetes deploys, and now lead a 16-person team.</p>
+        <div class="facts"><div><strong>170</strong>students tested it in live classes</div><div><strong>90%</strong>positive feedback on learning value</div></div>
+        <figure class="cut"><img src="../assets/virginia-tech-burruss-hall-from-drillfield.jpg" alt="Burruss Hall across the Drillfield"><figcaption>Burruss Hall from the Drillfield</figcaption></figure>
+      </section>
+      <section class="stop" data-stop="orion">
+        <span class="town">Richmond, Virginia</span>
+        <h2>Orion spots phishing sites</h2>
+        <p>An AI browser extension that flags phishing pages in real time and shows why. I trained XGBoost models on SageMaker over 300+ signals and built the Chrome extension, then demoed it live at the CCI Symposium 2026.</p>
+        <figure class="cut"><img src="../assets/richmond-virginia-skyline-march-2025.jpg" alt="Richmond skyline over the James River"><figcaption>Richmond, home of the CCI Symposium</figcaption></figure>
+      </section>
+      <section class="stop" data-stop="safe">
+        <span class="town">Alexandria, Virginia</span>
+        <h2>A street survey by text</h2>
+        <p>For NoVA Families for Safe Streets I led a team of three to turn their web survey into a 10-question SMS survey on Twilio, with GPT-4o-mini handling timestamps and geocoding addresses into map data.</p>
+        <figure class="cut"><img src="../assets/king-street-alexandria-22-september-2023-43.jpg" alt="King Street, Old Town Alexandria"><figcaption>King Street, Old Town</figcaption></figure>
+      </section>
+      <section class="stop" data-stop="valk">
+        <span class="town">Arlington, Texas</span>
+        <h2>Flying team Valkyrie</h2>
+        <p>Control-systems engineer at the 10th Annual 3D Printed Aircraft Competition: I wired an Xbox controller to the plane over radio with Python.</p>
+        <figure class="cut"><img src="../assets/university-of-texas-at-arlington-march-2021.jpg" alt="Arlington Hall, UT Arlington"><figcaption>UT Arlington, the competition's host</figcaption></figure>
+      </section>
+    </div>
+  </main>
+</div>
+<footer id="contact">
+  <h2>Visitor desk</h2>
+  <p><a href="mailto:ntien22@vt.edu">ntien22@vt.edu</a> · <a href="https://www.linkedin.com/in/tienthnguyen/">LinkedIn</a></p>
+  <small>Pictures via Wikimedia Commons: Burruss Hall by Eric T Gunther (CC BY 3.0); Richmond skyline by Bdl2001 (CC BY 4.0); King Street by DiscoA340 (CC BY-SA 4.0); Arlington Hall by Michael Barera (CC BY-SA 4.0).</small>
+</footer>
+<script>
+// the live thing: the pin for the stop in view lights up
+const pins = document.querySelectorAll('.pin');
+const io = new IntersectionObserver(es => es.forEach(e => {
+  if (e.isIntersecting) pins.forEach(p => p.classList.toggle('on', p.dataset.stop === e.target.dataset.stop));
+}), {rootMargin: '-45% 0px -45% 0px'});
+document.querySelectorAll('.stop').forEach(s => io.observe(s));
+</script>
+</body>
+</html>

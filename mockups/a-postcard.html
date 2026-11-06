@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tien Nguyen · Postcard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Yellowtail&family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,800&display=swap" rel="stylesheet">
+<style>
+:root{--sky:#CDE9F7;--sky-2:#B4DDF2;--ink:#0B2545;--orange:#FF6A1A;--orange-ink:#B3430A;--paper:#FFFDF8;--m:clamp(16px,3vw,40px)}
+*{box-sizing:border-box;margin:0}
+body{background:var(--sky);color:var(--ink);font:400 18px/1.55 "DM Sans",system-ui,sans-serif}
+a{color:inherit}
+img{display:block;max-width:100%}
+.wrap{padding-inline:var(--m);max-width:1440px;margin-inline:auto}
+nav{display:flex;align-items:center;gap:28px;padding-block:20px}
+nav .mark{font:800 20px "DM Sans";text-decoration:none;margin-right:auto}
+nav a{text-decoration:none;font-weight:600}
+.btn{display:inline-block;background:var(--orange);color:var(--ink);padding:14px 26px;border-radius:999px;font-weight:800;text-decoration:none;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn:active{transform:translateY(1px)}
+.btn.ghost{background:var(--ink);color:var(--paper)}
+
+/* hero: the postcard */
+.hero{display:grid;grid-template-columns:1.6fr 1fr;gap:var(--m);align-items:center;padding-block:40px 120px}
+.greet{font:400 clamp(40px,5vw,76px)/1 "Yellowtail",cursive;color:var(--orange-ink);transform:rotate(-4deg);display:inline-block;margin-left:.4em}
+h1{font:400 clamp(72px,12.5vw,196px)/.86 "Bowlby One",sans-serif;letter-spacing:-.02em;text-transform:uppercase;
+  background:url(../assets/virginia-tech-burruss-hall-from-drillfield.jpg) center 35%/cover;
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  -webkit-text-stroke:3px var(--ink);paint-order:stroke fill}
+h1 span{display:block}
+h1 span+span{background:url(../assets/blacksburg-virginia.jpg) center 60%/cover;-webkit-background-clip:text;background-clip:text}
+.lede{font-size:clamp(20px,1.7vw,24px);max-width:34ch;margin-top:36px}
+.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}
+.me{position:relative;transform:rotate(3deg)}
+.cut{background:var(--paper);padding:12px 12px 14px;position:relative}
+.cut::before{content:"";position:absolute;width:110px;height:30px;background:var(--orange);opacity:.85;top:-14px;left:50%;transform:translateX(-50%) rotate(-3deg)}
+.me img{aspect-ratio:3/4;object-fit:cover;width:100%}
+.me figcaption{font:400 26px "Yellowtail";margin-top:6px}
+
+/* stops */
+.stop{display:grid;grid-template-columns:repeat(12,1fr);gap:var(--m);padding-block:120px;align-items:start}
+.stop:nth-of-type(even){background:var(--sky-2)}
+.stop h2{font:400 clamp(44px,6vw,92px)/.9 "Bowlby One";text-transform:uppercase;letter-spacing:-.02em}
+.stop .where{font:400 34px "Yellowtail";color:var(--orange-ink);display:block;margin-bottom:8px}
+.stop .text{grid-column:1/7}
+.stop .pics{grid-column:7/13;position:relative;min-height:520px}
+.stop:nth-of-type(even) .text{grid-column:7/13;grid-row:1}
+.stop:nth-of-type(even) .pics{grid-column:1/7;grid-row:1}
+.stop p{margin-top:24px;max-width:56ch}
+.stop ul{margin-top:24px;padding-left:1.1em}
+.stop li{margin-top:8px}
+.stop li b{font-weight:800}
+.pics .cut{position:absolute;width:78%}
+.pics .cut:first-child{top:0;left:0;transform:rotate(-2.5deg)}
+.pics .cut:nth-child(2){bottom:0;right:0;width:52%;transform:rotate(4deg)}
+.pics .cut img{aspect-ratio:4/3;object-fit:cover;width:100%}
+.ticket{background:var(--orange);color:var(--ink);padding:26px 28px;font-weight:600}
+.ticket strong{display:block;font:400 64px/1 "Bowlby One"}
+.wrap-full{padding-inline:var(--m)}
+
+/* passport + contact */
+.passport{display:grid;grid-template-columns:1fr 1fr;gap:var(--m);padding-block:120px;align-items:center}
+.passport h2{font:400 clamp(44px,6vw,92px)/.9 "Bowlby One";text-transform:uppercase}
+.stamp{justify-self:center;transform:rotate(-8deg);width:min(340px,70%)}
+footer{background:var(--ink);color:var(--paper);padding:120px var(--m) 40px}
+footer h2{font:400 clamp(56px,11vw,180px)/.86 "Bowlby One";text-transform:uppercase;color:var(--sky)}
+footer p{margin-top:24px;font-size:20px}
+footer .credits{font-size:14px;margin-top:80px;max-width:75ch;opacity:.9}
+@media (max-width:820px){
+  .hero,.passport{grid-template-columns:1fr}
+  .me{max-width:320px}
+  .stop .text,.stop .pics,.stop:nth-of-type(even) .text,.stop:nth-of-type(even) .pics{grid-column:1/-1;grid-row:auto}
+  .stop .pics{min-height:380px}
+  nav a:not(.mark):not(.btn){display:none}
+}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <nav><a class="mark" href="#">Tien Nguyen</a><a href="#tour">The tour</a><a href="#passport">Passport</a><a href="#contact">Visitor desk</a><a class="btn" href="mailto:ntien22@vt.edu">Email me</a></nav>
+  <section class="hero">
+    <div>
+      <span class="greet">Greetings from</span>
+      <h1><span>Tien</span><span>Nguyen</span></h1>
+      <p class="lede">A visitor's guide to my work: software, data and research from a Virginia Tech CS student, class of December 2026.</p>
+      <div class="actions"><a class="btn" href="#tour">Start the tour</a><a class="btn ghost" href="#contact">Visitor desk</a></div>
+    </div>
+    <figure class="me cut"><img src="../assets/me.jpg" alt="Tien Nguyen outdoors under autumn leaves"><figcaption>Your guide, Tien</figcaption></figure>
+  </section>
+</header>
+
+<main id="tour">
+  <section class="stop wrap-full">
+    <div class="text">
+      <span class="where">First stop, Blacksburg, VA</span>
+      <h2>The SQL gym</h2>
+      <p>DBWorkout is a gamified SQL practice platform built by Virginia Tech students, with real-time feedback, a shared leaderboard and instructor-controlled AI hints. I've been its student lead since Spring 2025.</p>
+      <ul>
+        <li>Designed the <b>PostgreSQL</b> schema with SQLAlchemy and wrote auth for <b>80 API endpoints</b> with JWT.</li>
+        <li>Shipped Alembic migrations and <b>Kubernetes</b> deploys on VT's Rancher.</li>
+        <li>Leading a 16-person team on VT login, Canvas LTI 1.3 and accessibility.</li>
+        <li>Published at <b>FIE 2026</b> and <b>FutureHCI 2026</b>.</li>
+      </ul>
+    </div>
+    <div class="pics">
+      <figure class="cut"><img src="../assets/virginia-tech-burruss-hall-from-drillfield.jpg" alt="Burruss Hall seen across the Drillfield, Virginia Tech"></figure>
+      <div class="cut ticket" style="position:absolute;bottom:20px;right:0;width:52%;transform:rotate(4deg)"><strong>170</strong>students tested it in live classes, 90% positive on learning value</div>
+    </div>
+  </section>
+
+  <section class="stop wrap-full">
+    <div class="text">
+      <span class="where">Second stop, Richmond, VA</span>
+      <h2>Phishing patrol</h2>
+      <p>A browser extension that flags phishing sites in real time and shows which parts of the page looked suspicious, so every catch becomes a small lesson. Built in the CCI PREP internship with mentors from Parsons.</p>
+      <ul>
+        <li>Trained <b>XGBoost</b> models on AWS SageMaker over 300+ website security signals.</li>
+        <li>Built the Chrome extension that reports to <b>Amazon API Gateway</b>.</li>
+        <li>Live demo at the <b>CCI Symposium 2026</b> in Richmond.</li>
+      </ul>
+    </div>
+    <div class="pics">
+      <figure class="cut"><img src="../assets/richmond-virginia-skyline-march-2025.jpg" alt="Richmond skyline over the James River"></figure>
+      <div class="cut ticket" style="position:absolute;bottom:20px;right:0;width:52%;transform:rotate(4deg)"><strong>300+</strong>security signals read from every page you visit</div>
+    </div>
+  </section>
+
+  <section class="stop wrap-full">
+    <div class="text">
+      <span class="where">Third stop, Arlington, TX</span>
+      <h2>Xbox airways</h2>
+      <p>At the 10th Annual 3D Printed Aircraft Competition at UT Arlington, I was the control-systems engineer for Virginia Tech's team Valkyrie.</p>
+      <ul>
+        <li>Linked an <b>Xbox controller</b> to the aircraft with Python and radio.</li>
+        <li>Helped script the design analysis in Altair.</li>
+      </ul>
+    </div>
+    <div class="pics">
+      <figure class="cut"><img src="../assets/a-usaf-f-16-pilot-breaking-right.jpg" alt="An F-16 banking over desert"></figure>
+      <figure class="cut"><img src="../assets/university-of-texas-at-arlington-march-2021.jpg" alt="Arlington Hall, University of Texas at Arlington"></figure>
+    </div>
+  </section>
+
+  <section class="passport wrap" id="passport">
+    <div>
+      <h2>Passport stamped</h2>
+      <p style="margin-top:24px;max-width:46ch">AWS Certified Solutions Architect, Associate. Issued August 11, 2026.</p>
+    </div>
+    <img class="stamp" src="../assets/aws-certified-solutions-architect-badge.png" alt="AWS Certified Solutions Architect Associate badge">
+  </section>
+</main>
+
+<footer id="contact">
+  <h2>Visitor desk</h2>
+  <p><a href="mailto:ntien22@vt.edu">ntien22@vt.edu</a> · <a href="https://www.linkedin.com/in/tienthnguyen/">LinkedIn</a> · <a href="https://dbworkout.cs.vt.edu">dbworkout.cs.vt.edu</a></p>
+  <p class="credits">Pictures via Wikimedia Commons: Burruss Hall by Eric T Gunther (CC BY 3.0); Blacksburg by Smash the Iron Cage (CC BY-SA 4.0); Richmond skyline by Bdl2001 (CC BY 4.0); Arlington Hall by Michael Barera (CC BY-SA 4.0); F-16 by MSgt. Benjamin Bloker (public domain).</p>
+</footer>
+</body>
+</html>

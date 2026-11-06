@@ -1,0 +1,1828 @@
+{
+ "url": "mockups/b-map.html",
+ "at": "2026-11-02T20:18:44.782Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.4,
+    0.44,
+    0.47,
+    0.46,
+    0.5,
+    0.71
+   ],
+   "motion": {
+    "elements": 4,
+    "css": 0,
+    "transitions": 4,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 5371,
+     "screens": 6,
+     "words": 284,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "me.jpg",
+      "virginia-tech-burruss-hall-from-drillfield.jpg",
+      "richmond-virginia-skyline-march-2025.jpg",
+      "king-street-alexandria-22-september-2023-43.jpg",
+      "university-of-texas-at-arlington-march-2021.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Tien Nguyen's tour map",
+     "words": 4,
+     "chars": 22,
+     "lines": 2,
+     "size": 100.8,
+     "vw": 7,
+     "font": "Fraunces",
+     "weight": 900,
+     "tracking": -0.03,
+     "leading": 0.9,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 0.46,
+     "top": 228,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Tien Nguyen's tour map",
+     "words": 4,
+     "lines": 2,
+     "size": 100.8,
+     "font": "Fraunces"
+    },
+    "headings": [
+     {
+      "text": "Tien Nguyen's tour map",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 100.8,
+      "vw": 7,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.46,
+      "top": 228,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "DBWorkout, an SQL gym",
+      "words": 4,
+      "chars": 21,
+      "lines": 2,
+      "size": 63.4,
+      "vw": 4.4,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.46,
+      "top": 1420,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "170",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.2,
+      "top": 1690,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "90%",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.2,
+      "top": 1690,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "Orion spots phishing sites",
+      "words": 4,
+      "chars": 26,
+      "lines": 2,
+      "size": 63.4,
+      "vw": 4.4,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.46,
+      "top": 2463,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A street survey by text",
+      "words": 5,
+      "chars": 23,
+      "lines": 1,
+      "size": 63.4,
+      "vw": 4.4,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.46,
+      "top": 3346,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Flying team Valkyrie",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 63.4,
+      "vw": 4.4,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.46,
+      "top": 4169,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Visitor desk",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 144,
+      "vw": 10,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 5047,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Instrument Sans",
+       "share": 0.87,
+       "mono": false
+      },
+      {
+       "family": "Fraunces",
+       "share": 0.13,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      15,
+      16,
+      18,
+      22,
+      40,
+      63,
+      101,
+      144
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Instrument Sans",
+      "size": 18,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.1
+     },
+     "measureChars": 69,
+     "max": {
+      "size": 144,
+      "vw": 10,
+      "font": "Fraunces",
+      "text": "Visitor desk"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#e6f4fb",
+     "bodyBgHsl": {
+      "h": 200,
+      "s": 0.72,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0d2a44",
+       "top": 4927,
+       "hsl": {
+        "h": 208,
+        "s": 0.68,
+        "l": 0.16
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0d2a44",
+       "share": 0.81
+      },
+      {
+       "color": "#e6f4fb",
+       "share": 0.15
+      },
+      {
+       "color": "#a9400a",
+       "share": 0.04
+      },
+      {
+       "color": "#f2641e",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#f2641e",
+      "hsl": {
+       "h": 20,
+       "s": 0.89,
+       "l": 0.53
+      },
+      "fg": "#0d2a44"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 0,
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Email me",
+      "Follow the route"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "svg",
+      "ratio": 0.2
+     }
+    ],
+    "nav": {
+     "links": 3,
+     "fixed": false,
+     "height": 96,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "fraunces",
+     "instrument sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 5371,
+    "margins": {
+     "left": 40,
+     "right": 44
+    },
+    "sections": [
+     {
+      "sel": "div.split",
+      "tag": "div",
+      "top": 0,
+      "height": 4927,
+      "words": 239,
+      "media": 6,
+      "middle": 40,
+      "heading": {
+       "text": "Tien Nguyen's tour map",
+       "size": 101,
+       "tag": "h1"
+      },
+      "left": 40,
+      "right": 44,
+      "textLeft": 40,
+      "textRight": 53,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": true
+     },
+     {
+      "sel": "footer#contact",
+      "tag": "footer",
+      "top": 4927,
+      "height": 445,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Visitor desk",
+       "size": 144,
+       "tag": "h2"
+      },
+      "left": 40,
+      "right": 718,
+      "textLeft": 40,
+      "textRight": 718,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Tien Nguyen's tour map",
+      "size": 101,
+      "top": 228,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 740,
+      "n": 10
+     },
+     {
+      "x": 40,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 11,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.1,
+    "voidBox": {
+     "x": 0,
+     "y": 720,
+     "w": 720,
+     "h": 180
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.46,
+    0.58,
+    0.61,
+    0.67,
+    0.75,
+    0.79
+   ],
+   "motion": {
+    "elements": 3,
+    "css": 0,
+    "transitions": 3,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 5626,
+     "screens": 5.5,
+     "words": 265,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "me.jpg",
+      "virginia-tech-burruss-hall-from-drillfield.jpg",
+      "richmond-virginia-skyline-march-2025.jpg",
+      "king-street-alexandria-22-september-2023-43.jpg",
+      "university-of-texas-at-arlington-march-2021.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Tien Nguyen's tour map",
+     "words": 4,
+     "chars": 22,
+     "lines": 1,
+     "size": 56,
+     "vw": 7.3,
+     "font": "Fraunces",
+     "weight": 900,
+     "tracking": -0.03,
+     "leading": 0.9,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.94,
+     "top": 715,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Tien Nguyen's tour map",
+     "words": 4,
+     "lines": 1,
+     "size": 56,
+     "font": "Fraunces"
+    },
+    "headings": [
+     {
+      "text": "Tien Nguyen's tour map",
+      "words": 4,
+      "chars": 22,
+      "lines": 1,
+      "size": 56,
+      "vw": 7.3,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 715,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "DBWorkout, an SQL gym",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 1828,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "170",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 2015,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "90%",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.41,
+      "top": 2015,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "Orion spots phishing sites",
+      "words": 4,
+      "chars": 26,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 2797,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A street survey by text",
+      "words": 5,
+      "chars": 23,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 3634,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Flying team Valkyrie",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 4471,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Visitor desk",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 76.8,
+      "vw": 10,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 5362,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Instrument Sans",
+       "share": 0.86,
+       "mono": false
+      },
+      {
+       "family": "Fraunces",
+       "share": 0.14,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      15,
+      18,
+      22,
+      40,
+      56,
+      77
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Instrument Sans",
+      "size": 18,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.1
+     },
+     "measureChars": 69,
+     "max": {
+      "size": 76.8,
+      "vw": 10,
+      "font": "Fraunces",
+      "text": "Visitor desk"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#e6f4fb",
+     "bodyBgHsl": {
+      "h": 200,
+      "s": 0.72,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#e6f4fb",
+       "top": 0,
+       "hsl": {
+        "h": 200,
+        "s": 0.72,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#9ed3ee",
+       "top": 8,
+       "hsl": {
+        "h": 200,
+        "s": 0.7,
+        "l": 0.78
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 1032,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#0d2a44",
+       "top": 5242,
+       "hsl": {
+        "h": 208,
+        "s": 0.68,
+        "l": 0.16
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0d2a44",
+       "share": 0.79
+      },
+      {
+       "color": "#e6f4fb",
+       "share": 0.15
+      },
+      {
+       "color": "#a9400a",
+       "share": 0.05
+      },
+      {
+       "color": "#f2641e",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#f2641e",
+      "hsl": {
+       "h": 20,
+       "s": 0.89,
+       "l": 0.53
+      },
+      "fg": "#0d2a44"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 0,
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Email me",
+      "Follow the route"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "svg",
+      "ratio": 0.4
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 96,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "fraunces",
+     "instrument sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 5626,
+    "margins": {
+     "left": 23,
+     "right": 26
+    },
+    "sections": [
+     {
+      "sel": "aside.map",
+      "tag": "aside",
+      "top": 0,
+      "height": 449,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 23,
+      "right": 23,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "figure.me",
+      "tag": "figure",
+      "top": 1032,
+      "height": 605,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 23,
+      "right": 298,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div#tour",
+      "tag": "div",
+      "top": 1630,
+      "height": 3452,
+      "words": 187,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "DBWorkout, an SQL gym",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 23,
+      "right": 26,
+      "textLeft": 23,
+      "textRight": 69,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contact",
+      "tag": "footer",
+      "top": 5242,
+      "height": 384,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Visitor desk",
+       "size": 77,
+       "tag": "h2"
+      },
+      "left": 23,
+      "right": 63,
+      "textLeft": 23,
+      "textRight": 63,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Tien Nguyen's tour map",
+      "size": 56,
+      "top": 715,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 23,
+      "n": 10
+     }
+    ],
+    "leftBlocks": 10,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.52,
+    0.61,
+    0.7,
+    0.65,
+    0.62,
+    0.77
+   ],
+   "motion": {
+    "elements": 3,
+    "css": 0,
+    "transitions": 3,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 4899,
+     "screens": 5.8,
+     "words": 265,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "me.jpg",
+      "virginia-tech-burruss-hall-from-drillfield.jpg",
+      "richmond-virginia-skyline-march-2025.jpg",
+      "king-street-alexandria-22-september-2023-43.jpg",
+      "university-of-texas-at-arlington-march-2021.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Tien Nguyen's tour map",
+     "words": 4,
+     "chars": 22,
+     "lines": 3,
+     "size": 56,
+     "vw": 14.4,
+     "font": "Fraunces",
+     "weight": 900,
+     "tracking": -0.03,
+     "leading": 0.9,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 468,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Tien Nguyen's tour map",
+     "words": 4,
+     "lines": 3,
+     "size": 56,
+     "font": "Fraunces"
+    },
+    "headings": [
+     {
+      "text": "Tien Nguyen",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 305,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "Tien Nguyen's tour map",
+      "words": 4,
+      "chars": 22,
+      "lines": 3,
+      "size": 56,
+      "vw": 14.4,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 468,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Four towns, four projects. Software, data and research from a Virginia Tech CS student, class of December 2026.",
+      "words": 18,
+      "chars": 111,
+      "lines": 4,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Instrument Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 651,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Blacksburg, Virginia",
+      "words": 2,
+      "chars": 20,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Fraunces",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1405,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "DBWorkout, an SQL gym",
+      "words": 4,
+      "chars": 21,
+      "lines": 2,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1443,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "170",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.35,
+      "top": 1752,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "90%",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.35,
+      "top": 1752,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "Richmond, Virginia",
+      "words": 2,
+      "chars": 18,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Fraunces",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2338,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Orion spots phishing sites",
+      "words": 4,
+      "chars": 26,
+      "lines": 2,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2376,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Alexandria, Virginia",
+      "words": 2,
+      "chars": 20,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Fraunces",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3083,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "A street survey by text",
+      "words": 5,
+      "chars": 23,
+      "lines": 2,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3121,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Arlington, Texas",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Fraunces",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3800,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Flying team Valkyrie",
+      "words": 3,
+      "chars": 20,
+      "lines": 2,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3838,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Visitor desk",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 56,
+      "vw": 14.4,
+      "font": "Fraunces",
+      "weight": 900,
+      "tracking": -0.03,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4610,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 14,
+     "maxLines": 4,
+     "over2Lines": 1,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Instrument Sans",
+       "share": 0.86,
+       "mono": false
+      },
+      {
+       "family": "Fraunces",
+       "share": 0.14,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      15,
+      18,
+      22,
+      40,
+      56
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Instrument Sans",
+      "size": 18,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.1
+     },
+     "measureChars": 40,
+     "max": {
+      "size": 56,
+      "vw": 14.4,
+      "font": "Fraunces",
+      "text": "Tien Nguyen's tour map"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#e6f4fb",
+     "bodyBgHsl": {
+      "h": 200,
+      "s": 0.72,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0d2a44",
+       "top": 4490,
+       "hsl": {
+        "h": 208,
+        "s": 0.68,
+        "l": 0.16
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0d2a44",
+       "share": 0.79
+      },
+      {
+       "color": "#e6f4fb",
+       "share": 0.15
+      },
+      {
+       "color": "#a9400a",
+       "share": 0.05
+      },
+      {
+       "color": "#f2641e",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#f2641e",
+      "hsl": {
+       "h": 20,
+       "s": 0.89,
+       "l": 0.53
+      },
+      "fg": "#0d2a44"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 0,
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Email me",
+      "Follow the route"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "svg",
+      "ratio": 0.23
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 96,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "fraunces",
+     "instrument sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 4899,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "aside.map",
+      "tag": "aside",
+      "top": 0,
+      "height": 231,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 16,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "h1",
+      "tag": "h1",
+      "top": 468,
+      "height": 151,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "p.lede",
+      "tag": "p",
+      "top": 651,
+      "height": 136,
+      "words": 18,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 19,
+      "textLeft": 16,
+      "textRight": 19,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div#tour",
+      "tag": "div",
+      "top": 1245,
+      "height": 3085,
+      "words": 187,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "DBWorkout, an SQL gym",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 16,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contact",
+      "tag": "footer",
+      "top": 4490,
+      "height": 409,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Visitor desk",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 17,
+      "textLeft": 16,
+      "textRight": 17,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Tien Nguyen's tour map",
+      "size": 56,
+      "top": 468,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 10
+     }
+    ],
+    "leftBlocks": 10,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 4 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  },
+  {
+   "level": "FAIL",
+   "id": "covered-text",
+   "width": 768,
+   "message": "Large text lies under another element at some scroll position: \"Flying team Valkyrie\" (screen 5, 100% hidden)",
+   "fix": "Nothing may sit on top of a headline or statement. Move the picture, shorten the pinned run, or raise the text above it (z-index) and give it a ground."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "1 headline(s) wrap past two lines at 390px: \"Tien Nguyen's tour map\" → 3 lines (4 words, 56px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\b-map\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\b-map\\desktop-page-01.jpg",
+    "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\b-map\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\b-map\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\b-map\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\b-map\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\b-map\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

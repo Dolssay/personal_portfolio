@@ -1,0 +1,2313 @@
+{
+ "url": "mockups/a-postcard.html",
+ "at": "2026-11-02T20:20:05.660Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.56,
+    0.42,
+    0.81,
+    0.43,
+    0.71
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4313,
+     "screens": 4.8,
+     "words": 321,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 8,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "me.jpg",
+      "virginia-tech-burruss-hall-from-drillfield.jpg",
+      "richmond-virginia-skyline-march-2025.jpg",
+      "a-usaf-f-16-pilot-breaking-right.jpg",
+      "university-of-texas-at-arlington-march-2021.jpg",
+      "aws-certified-solutions-architect-badge.png"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "TIEN NGUYEN",
+     "words": 2,
+     "chars": 11,
+     "lines": 2,
+     "size": 180,
+     "vw": 12.5,
+     "font": "Bowlby One",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 0.86,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.57,
+     "top": 252,
+     "gradientText": true,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "TIEN NGUYEN",
+     "words": 2,
+     "lines": 2,
+     "size": 180,
+     "font": "Bowlby One"
+    },
+    "headings": [
+     {
+      "text": "Greetings from",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 72,
+      "vw": 5,
+      "font": "Yellowtail",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 167,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "TIEN NGUYEN",
+      "words": 2,
+      "chars": 11,
+      "lines": 2,
+      "size": 180,
+      "vw": 12.5,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.86,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.57,
+      "top": 252,
+      "gradientText": true,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "First stop, Blacksburg, VA",
+      "words": 4,
+      "chars": 26,
+      "lines": 1,
+      "size": 34,
+      "vw": 2.4,
+      "font": "Yellowtail",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.46,
+      "top": 1077,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "THE SQL GYM",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 86.4,
+      "vw": 6,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.46,
+      "top": 1131,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "170",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.2,
+      "top": 1421,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "Second stop, Richmond, VA",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 34,
+      "vw": 2.4,
+      "font": "Yellowtail",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.46,
+      "top": 1837,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "PHISHING PATROL",
+      "words": 2,
+      "chars": 15,
+      "lines": 2,
+      "size": 86.4,
+      "vw": 6,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.46,
+      "top": 1891,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "300+",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.2,
+      "top": 2181,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "Third stop, Arlington, TX",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 34,
+      "vw": 2.4,
+      "font": "Yellowtail",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.46,
+      "top": 2597,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "XBOX AIRWAYS",
+      "words": 2,
+      "chars": 12,
+      "lines": 2,
+      "size": 86.4,
+      "vw": 6,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.46,
+      "top": 2651,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "PASSPORT STAMPED",
+      "words": 2,
+      "chars": 16,
+      "lines": 2,
+      "size": 86.4,
+      "vw": 6,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.46,
+      "top": 3423,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "VISITOR DESK",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 158.4,
+      "vw": 11,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.86,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 3937,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Yellowtail",
+       "share": 0.05,
+       "mono": false
+      },
+      {
+       "family": "Bowlby One",
+       "share": 0.04,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      14,
+      18,
+      20,
+      24,
+      26,
+      34,
+      64,
+      72,
+      86,
+      158,
+      180
+     ],
+     "sizeCount": 11,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 18,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 12.2
+     },
+     "measureChars": 103,
+     "max": {
+      "size": 180,
+      "vw": 12.5,
+      "font": "Bowlby One",
+      "text": "Tien"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.04,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#cde9f7",
+     "bodyBgHsl": {
+      "h": 200,
+      "s": 0.72,
+      "l": 0.89
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#fffdf8",
+       "top": 123,
+       "hsl": {
+        "h": 43,
+        "s": 1,
+        "l": 0.99
+       }
+      },
+      {
+       "color": "#b4ddf2",
+       "top": 1717,
+       "hsl": {
+        "h": 200,
+        "s": 0.7,
+        "l": 0.83
+       }
+      },
+      {
+       "color": "#0b2545",
+       "top": 3817,
+       "hsl": {
+        "h": 213,
+        "s": 0.72,
+        "l": 0.16
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0b2545",
+       "share": 0.78
+      },
+      {
+       "color": "#fffdf8",
+       "share": 0.16
+      },
+      {
+       "color": "#b3430a",
+       "share": 0.05
+      },
+      {
+       "color": "#cde9f7",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#ff6a1a",
+      "hsl": {
+       "h": 21,
+       "s": 1,
+       "l": 0.55
+      },
+      "fg": "#0b2545"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Email me",
+      "Start the tour",
+      "Visitor desk"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 8,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.26
+     },
+     {
+      "type": "bg-image",
+      "ratio": 0.2
+     },
+     {
+      "type": "bg-image",
+      "ratio": 0.1
+     }
+    ],
+    "nav": {
+     "links": 5,
+     "fixed": false,
+     "height": 957,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bowlby one",
+     "dm sans",
+     "yellowtail"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4313,
+    "margins": {
+     "left": 40,
+     "right": 44
+    },
+    "sections": [
+     {
+      "sel": "header.wrap",
+      "tag": "header",
+      "top": 0,
+      "height": 957,
+      "words": 42,
+      "media": 2,
+      "middle": 35,
+      "heading": {
+       "text": "Tien",
+       "size": 180,
+       "tag": "h1"
+      },
+      "left": 40,
+      "right": 35,
+      "textLeft": 40,
+      "textRight": 66,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.stop.wrap-full",
+      "tag": "section",
+      "top": 957,
+      "height": 760,
+      "words": 99,
+      "media": 1,
+      "middle": 54,
+      "heading": {
+       "text": "The SQL gym",
+       "size": 86,
+       "tag": "h2"
+      },
+      "left": 40,
+      "right": 74,
+      "textLeft": 40,
+      "textRight": 74,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.stop.wrap-full",
+      "tag": "section",
+      "top": 1717,
+      "height": 760,
+      "words": 82,
+      "media": 1,
+      "middle": 78,
+      "heading": {
+       "text": "Phishing patrol",
+       "size": 86,
+       "tag": "h2"
+      },
+      "left": 44,
+      "right": 67,
+      "textLeft": 381,
+      "textRight": 67,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.stop.wrap-full",
+      "tag": "section",
+      "top": 2477,
+      "height": 760,
+      "words": 47,
+      "media": 2,
+      "middle": 74,
+      "heading": {
+       "text": "Xbox airways",
+       "size": 86,
+       "tag": "h2"
+      },
+      "left": 40,
+      "right": 44,
+      "textLeft": 40,
+      "textRight": 770,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#passport.passport.wrap",
+      "tag": "section",
+      "top": 3237,
+      "height": 580,
+      "words": 11,
+      "media": 1,
+      "middle": 272,
+      "heading": {
+       "text": "Passport stamped",
+       "size": 86,
+       "tag": "h2"
+      },
+      "left": 40,
+      "right": 178,
+      "textLeft": 40,
+      "textRight": 834,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contact",
+      "tag": "footer",
+      "top": 3817,
+      "height": 496,
+      "words": 48,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Visitor desk",
+       "size": 158,
+       "tag": "h2"
+      },
+      "left": 40,
+      "right": 162,
+      "textLeft": 40,
+      "textRight": 162,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 1560,
+      "height": 276
+     },
+     {
+      "top": 2308,
+      "height": 288
+     }
+    ],
+    "h1s": [
+     {
+      "text": "TIEN NGUYEN",
+      "size": 180,
+      "top": 252,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 40,
+      "n": 9
+     },
+     {
+      "x": 740,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 11,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.08,
+    "voidBox": {
+     "x": 0,
+     "y": 780,
+     "w": 840,
+     "h": 120
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.43,
+    0.45,
+    0.92,
+    0.57,
+    0.58,
+    0.65
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 5199,
+     "screens": 5.1,
+     "words": 316,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "me.jpg",
+      "virginia-tech-burruss-hall-from-drillfield.jpg",
+      "richmond-virginia-skyline-march-2025.jpg",
+      "a-usaf-f-16-pilot-breaking-right.jpg",
+      "university-of-texas-at-arlington-march-2021.jpg",
+      "aws-certified-solutions-architect-badge.png"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "TIEN NGUYEN",
+     "words": 2,
+     "chars": 11,
+     "lines": 2,
+     "size": 96,
+     "vw": 12.5,
+     "font": "Bowlby One",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 0.86,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.94,
+     "top": 178,
+     "gradientText": true,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "TIEN NGUYEN",
+     "words": 2,
+     "lines": 2,
+     "size": 96,
+     "font": "Bowlby One"
+    },
+    "headings": [
+     {
+      "text": "Greetings from",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Yellowtail",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 129,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "TIEN NGUYEN",
+      "words": 2,
+      "chars": 11,
+      "lines": 2,
+      "size": 96,
+      "vw": 12.5,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.86,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 178,
+      "gradientText": true,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Your guide, Tien",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "Yellowtail",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 983,
+      "tag": "figcaption",
+      "kind": "statement"
+     },
+     {
+      "text": "First stop, Blacksburg, VA",
+      "words": 4,
+      "chars": 26,
+      "lines": 1,
+      "size": 34,
+      "vw": 4.4,
+      "font": "Yellowtail",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 1280,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "THE SQL GYM",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 6,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 1334,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "170",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 64,
+      "vw": 8.3,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.42,
+      "top": 1897,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "Second stop, Richmond, VA",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 34,
+      "vw": 4.4,
+      "font": "Yellowtail",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 2314,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "PHISHING PATROL",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 6,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 2368,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "300+",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 64,
+      "vw": 8.3,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.42,
+      "top": 2867,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "Third stop, Arlington, TX",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 34,
+      "vw": 4.4,
+      "font": "Yellowtail",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 3284,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "XBOX AIRWAYS",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 6,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 3338,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "PASSPORT STAMPED",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 6,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 4190,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "VISITOR DESK",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 84.5,
+      "vw": 11,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.86,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 4886,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 13,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Yellowtail",
+       "share": 0.05,
+       "mono": false
+      },
+      {
+       "family": "Bowlby One",
+       "share": 0.04,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      14,
+      18,
+      20,
+      26,
+      34,
+      40,
+      46,
+      64,
+      85,
+      96
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 18,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 12.2
+     },
+     "measureChars": 103,
+     "max": {
+      "size": 96,
+      "vw": 12.5,
+      "font": "Bowlby One",
+      "text": "Tien"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.04,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#cde9f7",
+     "bodyBgHsl": {
+      "h": 200,
+      "s": 0.72,
+      "l": 0.89
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#fffdf8",
+       "top": 1682,
+       "hsl": {
+        "h": 43,
+        "s": 1,
+        "l": 0.99
+       }
+      },
+      {
+       "color": "#b4ddf2",
+       "top": 2194,
+       "hsl": {
+        "h": 200,
+        "s": 0.7,
+        "l": 0.83
+       }
+      },
+      {
+       "color": "#0b2545",
+       "top": 4766,
+       "hsl": {
+        "h": 213,
+        "s": 0.72,
+        "l": 0.16
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0b2545",
+       "share": 0.78
+      },
+      {
+       "color": "#fffdf8",
+       "share": 0.16
+      },
+      {
+       "color": "#b3430a",
+       "share": 0.05
+      },
+      {
+       "color": "#cde9f7",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#ff6a1a",
+      "hsl": {
+       "h": 21,
+       "s": 1,
+       "l": 0.55
+      },
+      "fg": "#0b2545"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Email me",
+      "Start the tour",
+      "Visitor desk"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 7,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.16
+     },
+     {
+      "type": "bg-image",
+      "ratio": 0.15
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 1160,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bowlby one",
+     "dm sans",
+     "yellowtail"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 5199,
+    "margins": {
+     "left": 23,
+     "right": 26
+    },
+    "sections": [
+     {
+      "sel": "header.wrap",
+      "tag": "header",
+      "top": 0,
+      "height": 1160,
+      "words": 37,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Tien",
+       "size": 96,
+       "tag": "h1"
+      },
+      "left": 23,
+      "right": 23,
+      "textLeft": 23,
+      "textRight": 49,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.stop.wrap-full",
+      "tag": "section",
+      "top": 1160,
+      "height": 1034,
+      "words": 99,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "The SQL gym",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 23,
+      "right": 54,
+      "textLeft": 23,
+      "textRight": 54,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.stop.wrap-full",
+      "tag": "section",
+      "top": 2194,
+      "height": 970,
+      "words": 82,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Phishing patrol",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 23,
+      "right": 54,
+      "textLeft": 23,
+      "textRight": 54,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.stop.wrap-full",
+      "tag": "section",
+      "top": 3164,
+      "height": 906,
+      "words": 47,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Xbox airways",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 23,
+      "right": 26,
+      "textLeft": 23,
+      "textRight": 115,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#passport.passport.wrap",
+      "tag": "section",
+      "top": 4070,
+      "height": 696,
+      "words": 11,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Passport stamped",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 23,
+      "right": 179,
+      "textLeft": 23,
+      "textRight": 179,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contact",
+      "tag": "footer",
+      "top": 4766,
+      "height": 433,
+      "words": 48,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Visitor desk",
+       "size": 84,
+       "tag": "h2"
+      },
+      "left": 23,
+      "right": 55,
+      "textLeft": 23,
+      "textRight": 55,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "TIEN NGUYEN",
+      "size": 96,
+      "top": 178,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 23,
+      "n": 11
+     }
+    ],
+    "leftBlocks": 11,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.66,
+    0.53,
+    0.65,
+    0.96,
+    0.57,
+    0.43,
+    0.74
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 401,
+     "h": 868
+    },
+    "page": {
+     "height": 5772,
+     "screens": 6.6,
+     "words": 316,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "me.jpg",
+      "virginia-tech-burruss-hall-from-drillfield.jpg",
+      "richmond-virginia-skyline-march-2025.jpg",
+      "a-usaf-f-16-pilot-breaking-right.jpg",
+      "university-of-texas-at-arlington-march-2021.jpg",
+      "aws-certified-solutions-architect-badge.png"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "TIEN NGUYEN",
+     "words": 2,
+     "chars": 11,
+     "lines": 2,
+     "size": 72,
+     "vw": 18,
+     "font": "Bowlby One",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 0.86,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.89,
+     "top": 178,
+     "gradientText": true,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "TIEN NGUYEN",
+     "words": 2,
+     "lines": 2,
+     "size": 72,
+     "font": "Bowlby One"
+    },
+    "headings": [
+     {
+      "text": "Greetings from",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 40,
+      "vw": 10,
+      "font": "Yellowtail",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.51,
+      "top": 129,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "TIEN NGUYEN",
+      "words": 2,
+      "chars": 11,
+      "lines": 2,
+      "size": 72,
+      "vw": 18,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.86,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 178,
+      "gradientText": true,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Your guide, Tien",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 26,
+      "vw": 6.5,
+      "font": "Yellowtail",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.74,
+      "top": 935,
+      "tag": "figcaption",
+      "kind": "statement"
+     },
+     {
+      "text": "First stop, Blacksburg, VA",
+      "words": 4,
+      "chars": 26,
+      "lines": 1,
+      "size": 34,
+      "vw": 8.5,
+      "font": "Yellowtail",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 1232,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "THE SQL GYM",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 44,
+      "vw": 11,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 1286,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "170",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 64,
+      "vw": 16,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.33,
+      "top": 1958,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "Second stop, Richmond, VA",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 34,
+      "vw": 8.5,
+      "font": "Yellowtail",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 2452,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "PHISHING PATROL",
+      "words": 2,
+      "chars": 15,
+      "lines": 2,
+      "size": 44,
+      "vw": 11,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 2506,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "300+",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 64,
+      "vw": 16,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.33,
+      "top": 3182,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "Third stop, Arlington, TX",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 34,
+      "vw": 8.5,
+      "font": "Yellowtail",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 3648,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "XBOX AIRWAYS",
+      "words": 2,
+      "chars": 12,
+      "lines": 2,
+      "size": 44,
+      "vw": 11,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 3702,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "PASSPORT STAMPED",
+      "words": 2,
+      "chars": 16,
+      "lines": 2,
+      "size": 44,
+      "vw": 11,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 4696,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "VISITOR DESK",
+      "words": 2,
+      "chars": 12,
+      "lines": 2,
+      "size": 56,
+      "vw": 14,
+      "font": "Bowlby One",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.86,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 5362,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 13,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Yellowtail",
+       "share": 0.05,
+       "mono": false
+      },
+      {
+       "family": "Bowlby One",
+       "share": 0.04,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      14,
+      18,
+      20,
+      26,
+      34,
+      40,
+      44,
+      56,
+      64,
+      72
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 18,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 12.2
+     },
+     "measureChars": 51,
+     "max": {
+      "size": 72,
+      "vw": 18,
+      "font": "Bowlby One",
+      "text": "Tien"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.04,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#cde9f7",
+     "bodyBgHsl": {
+      "h": 200,
+      "s": 0.72,
+      "l": 0.89
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#fffdf8",
+       "top": 522,
+       "hsl": {
+        "h": 43,
+        "s": 1,
+        "l": 0.99
+       }
+      },
+      {
+       "color": "#b4ddf2",
+       "top": 2332,
+       "hsl": {
+        "h": 200,
+        "s": 0.7,
+        "l": 0.83
+       }
+      },
+      {
+       "color": "#0b2545",
+       "top": 5242,
+       "hsl": {
+        "h": 213,
+        "s": 0.72,
+        "l": 0.16
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0b2545",
+       "share": 0.78
+      },
+      {
+       "color": "#fffdf8",
+       "share": 0.16
+      },
+      {
+       "color": "#b3430a",
+       "share": 0.05
+      },
+      {
+       "color": "#cde9f7",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#ff6a1a",
+      "hsl": {
+       "h": 21,
+       "s": 1,
+       "l": 0.55
+      },
+      "fg": "#0b2545"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Email me",
+      "Start the tour",
+      "Visitor desk"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.3
+     },
+     {
+      "type": "bg-image",
+      "ratio": 0.13
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 1112,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bowlby one",
+     "dm sans",
+     "yellowtail"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 401,
+     "h": 868
+    },
+    "pageH": 5772,
+    "margins": {
+     "left": 16,
+     "right": 27
+    },
+    "sections": [
+     {
+      "sel": "header.wrap",
+      "tag": "header",
+      "top": 0,
+      "height": 1112,
+      "words": 37,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Tien",
+       "size": 72,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 27,
+      "textLeft": 16,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.stop.wrap-full",
+      "tag": "section",
+      "top": 1112,
+      "height": 1220,
+      "words": 99,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "The SQL gym",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 36,
+      "textLeft": 16,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.stop.wrap-full",
+      "tag": "section",
+      "top": 2332,
+      "height": 1196,
+      "words": 82,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Phishing patrol",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 2,
+      "textLeft": 16,
+      "textRight": 2,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.stop.wrap-full",
+      "tag": "section",
+      "top": 3528,
+      "height": 1048,
+      "words": 47,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Xbox airways",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 35,
+      "textLeft": 16,
+      "textRight": 71,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#passport.passport.wrap",
+      "tag": "section",
+      "top": 4576,
+      "height": 666,
+      "words": 11,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Passport stamped",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 64,
+      "textLeft": 16,
+      "textRight": 102,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contact",
+      "tag": "footer",
+      "top": 5242,
+      "height": 531,
+      "words": 48,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Visitor desk",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 27,
+      "textLeft": 16,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 2168,
+      "height": 284
+     },
+     {
+      "top": 3364,
+      "height": 284
+     }
+    ],
+    "h1s": [
+     {
+      "text": "TIEN NGUYEN",
+      "size": 72,
+      "top": 178,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 11
+     }
+    ],
+    "leftBlocks": 11,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (section #fffdf8, text #fffdf8).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "font-count",
+   "width": 1440,
+   "message": "3 typefaces in use (DM Sans, Yellowtail, Bowlby One).",
+   "fix": "Two at most.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "11 different font sizes (14, 18, 20, 24, 26, 34, 64, 72, 86, 158, 180).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "measure",
+   "width": 1440,
+   "message": "Longest paragraph runs about 103 characters per line.",
+   "fix": "Cap paragraphs at 45–75 characters (max-width: 60ch).",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "covered-text",
+   "width": 1440,
+   "message": "Large text lies under another element at some scroll position: \"First stop, Blacksburg, VA\" (screen 2, 50% hidden); \"Second stop, Richmond, VA\" (screen 3, 50% hidden); \"Third stop, Arlington, TX\" (screen 3, 50% hidden)",
+   "fix": "Nothing may sit on top of a headline or statement. Move the picture, shorten the pinned run, or raise the text above it (z-index) and give it a ground."
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\a-postcard\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\a-postcard\\desktop-page-01.jpg",
+    "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\a-postcard\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\a-postcard\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\a-postcard\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\a-postcard\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\a-postcard\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

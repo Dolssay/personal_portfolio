@@ -1,0 +1,2357 @@
+{
+ "url": "mockups/c-magazine.html",
+ "at": "2026-11-02T20:20:54.685Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    1,
+    0.52,
+    0.71,
+    0.71,
+    0.77,
+    0.78
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4574,
+     "screens": 5.1,
+     "words": 336,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "me.jpg",
+      "virginia-tech-burruss-hall-from-drillfield.jpg",
+      "richmond-virginia-skyline-march-2025.jpg",
+      "king-street-alexandria-22-september-2023-43.jpg",
+      "university-of-texas-at-arlington-march-2021.jpg",
+      "a-usaf-f-16-pilot-breaking-right.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Tien Nguyen",
+     "words": 2,
+     "chars": 11,
+     "lines": 1,
+     "size": 216,
+     "vw": 15,
+     "font": "DM Serif Display",
+     "weight": 400,
+     "tracking": -0.04,
+     "leading": 0.85,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.94,
+     "top": 84,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Tien Nguyen",
+     "words": 2,
+     "lines": 1,
+     "size": 216,
+     "font": "DM Serif Display"
+    },
+    "headings": [
+     {
+      "text": "Tien Nguyen",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 216,
+      "vw": 15,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.85,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 84,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "A travel magazine about my work as a Virginia Tech CS student, class of December 2026.",
+      "words": 16,
+      "chars": 86,
+      "lines": 5,
+      "size": 31.7,
+      "vw": 2.2,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.22,
+      "top": 267,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Blacksburg The SQL gym 170 students worked out in",
+      "words": 9,
+      "chars": 49,
+      "lines": 4,
+      "size": 31.7,
+      "vw": 2.2,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.22,
+      "top": 464,
+      "mixedFonts": [
+       "DM Serif Display",
+       "Karla"
+      ],
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Richmond How to catch a phishing site in real time",
+      "words": 10,
+      "chars": 50,
+      "lines": 4,
+      "size": 31.7,
+      "vw": 2.2,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.22,
+      "top": 615,
+      "mixedFonts": [
+       "DM Serif Display",
+       "Karla"
+      ],
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Arlington, TX Flying a 3D-printed plane with an Xbox controller",
+      "words": 10,
+      "chars": 63,
+      "lines": 4,
+      "size": 31.7,
+      "vw": 2.2,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.22,
+      "top": 767,
+      "mixedFonts": [
+       "DM Serif Display",
+       "Karla"
+      ],
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "The SQL gym on the Drillfield",
+      "words": 6,
+      "chars": 29,
+      "lines": 2,
+      "size": 115.2,
+      "vw": 8,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.88,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.56,
+      "top": 1105,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "170 students, 90% said it helped them learn.",
+      "words": 8,
+      "chars": 44,
+      "lines": 2,
+      "size": 30,
+      "vw": 2.1,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.29,
+      "top": 1783,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Orion reads every page",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 115.2,
+      "vw": 8,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.88,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.56,
+      "top": 2235,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "300+ signals, one verdict, and the reason why.",
+      "words": 8,
+      "chars": 46,
+      "lines": 2,
+      "size": 30,
+      "vw": 2.1,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 2912,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Also in this issue",
+      "words": 4,
+      "chars": 18,
+      "lines": 1,
+      "size": 86.4,
+      "vw": 6,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 3364,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Team Valkyrie takes off",
+      "words": 4,
+      "chars": 23,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.26,
+      "top": 3501,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Aircraft design in a browser",
+      "words": 5,
+      "chars": 28,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.26,
+      "top": 3502,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Safe streets, by text",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 3506,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Write in",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 201.6,
+      "vw": 14,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.85,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 4206,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 14,
+     "maxLines": 5,
+     "over2Lines": 0,
+     "statements": 6,
+     "centered": 0,
+     "medianWords": 6,
+     "mixedFontHeadings": 3
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Karla",
+       "share": 0.67,
+       "mono": false
+      },
+      {
+       "family": "DM Serif Display",
+       "share": 0.33,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      18,
+      26,
+      30,
+      32,
+      86,
+      115,
+      202,
+      216
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Karla",
+      "size": 18,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.2
+     },
+     "measureChars": 89,
+     "max": {
+      "size": 216,
+      "vw": 15,
+      "font": "DM Serif Display",
+      "text": "Tien Nguyen"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f5fafd",
+     "bodyBgHsl": {
+      "h": 203,
+      "s": 0.67,
+      "l": 0.98
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#a9daf2",
+       "top": 0,
+       "hsl": {
+        "h": 200,
+        "s": 0.74,
+        "l": 0.81
+       }
+      },
+      {
+       "color": "#10223a",
+       "top": 2075,
+       "hsl": {
+        "h": 214,
+        "s": 0.57,
+        "l": 0.15
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#10223a",
+       "share": 0.79
+      },
+      {
+       "color": "#f5fafd",
+       "share": 0.18
+      },
+      {
+       "color": "#9a3a06",
+       "share": 0.02
+      },
+      {
+       "color": "#a9daf2",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#ff6f1f",
+      "hsl": {
+       "h": 21,
+       "s": 1,
+       "l": 0.56
+      },
+      "fg": "#10223a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": "pill",
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Email me"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.18
+     }
+    ],
+    "nav": {
+     "links": 3,
+     "fixed": false,
+     "height": 945,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm serif display",
+     "karla"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4574,
+    "margins": {
+     "left": 40,
+     "right": 46
+    },
+    "sections": [
+     {
+      "sel": "header.cover",
+      "tag": "header",
+      "top": 0,
+      "height": 945,
+      "words": 57,
+      "media": 1,
+      "middle": 12,
+      "heading": {
+       "text": "Tien Nguyen",
+       "size": 216,
+       "tag": "h1"
+      },
+      "left": 40,
+      "right": 64,
+      "textLeft": 40,
+      "textRight": 64,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.spread",
+      "tag": "section",
+      "top": 945,
+      "height": 1130,
+      "words": 90,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "The SQL gym on the Drillfield",
+       "size": 115,
+       "tag": "h2"
+      },
+      "left": 40,
+      "right": 46,
+      "textLeft": 40,
+      "textRight": 100,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.spread.alt",
+      "tag": "section",
+      "top": 2075,
+      "height": 1130,
+      "words": 73,
+      "media": 1,
+      "middle": 163,
+      "heading": {
+       "text": "Orion reads every page",
+       "size": 115,
+       "tag": "h2"
+      },
+      "left": 40,
+      "right": 42,
+      "textLeft": 40,
+      "textRight": 42,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.brief",
+      "tag": "section",
+      "top": 3204,
+      "height": 881,
+      "words": 78,
+      "media": 3,
+      "middle": 79,
+      "heading": {
+       "text": "Also in this issue",
+       "size": 86,
+       "tag": "h2"
+      },
+      "left": 40,
+      "right": 61,
+      "textLeft": 40,
+      "textRight": 61,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contact",
+      "tag": "footer",
+      "top": 4086,
+      "height": 488,
+      "words": 46,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Write in",
+       "size": 202,
+       "tag": "h2"
+      },
+      "left": 40,
+      "right": 752,
+      "textLeft": 40,
+      "textRight": 752,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 1892,
+      "height": 312
+     },
+     {
+      "top": 3024,
+      "height": 316
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Tien Nguyen",
+      "size": 216,
+      "top": 84,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 40,
+      "n": 8
+     },
+     {
+      "x": 857,
+      "n": 3
+     },
+     {
+      "x": 64,
+      "n": 2
+     },
+     {
+      "x": 525,
+      "n": 2
+     },
+     {
+      "x": 999,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 17,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.2,
+    "voidBox": {
+     "x": 360,
+     "y": 360,
+     "w": 480,
+     "h": 540
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    1,
+    0.7,
+    0.76,
+    1,
+    0.77,
+    0.87,
+    0.83
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 6820,
+     "screens": 6.7,
+     "words": 334,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "me.jpg",
+      "virginia-tech-burruss-hall-from-drillfield.jpg",
+      "richmond-virginia-skyline-march-2025.jpg",
+      "king-street-alexandria-22-september-2023-43.jpg",
+      "university-of-texas-at-arlington-march-2021.jpg",
+      "a-usaf-f-16-pilot-breaking-right.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Tien Nguyen",
+     "words": 2,
+     "chars": 11,
+     "lines": 1,
+     "size": 115.2,
+     "vw": 15,
+     "font": "DM Serif Display",
+     "weight": 400,
+     "tracking": -0.04,
+     "leading": 0.85,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.94,
+     "top": 84,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Tien Nguyen",
+     "words": 2,
+     "lines": 1,
+     "size": 115.2,
+     "font": "DM Serif Display"
+    },
+    "headings": [
+     {
+      "text": "Tien Nguyen",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 115.2,
+      "vw": 15,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.85,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 84,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "The SQL gym on the Drillfield",
+      "words": 6,
+      "chars": 29,
+      "lines": 2,
+      "size": 61.4,
+      "vw": 8,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.88,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.56,
+      "top": 1655,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Orion reads every page",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 61.4,
+      "vw": 8,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.88,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.56,
+      "top": 2978,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Also in this issue",
+      "words": 4,
+      "chars": 18,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 4302,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Safe streets, by text",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 4392,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Team Valkyrie takes off",
+      "words": 4,
+      "chars": 23,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 5019,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Aircraft design in a browser",
+      "words": 5,
+      "chars": 28,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 5656,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Write in",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 107.5,
+      "vw": 14,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.85,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 6532,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Karla",
+       "share": 0.67,
+       "mono": false
+      },
+      {
+       "family": "DM Serif Display",
+       "share": 0.33,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      18,
+      22,
+      30,
+      48,
+      61,
+      108,
+      115
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Karla",
+      "size": 18,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.2
+     },
+     "measureChars": 89,
+     "max": {
+      "size": 115.2,
+      "vw": 15,
+      "font": "DM Serif Display",
+      "text": "Tien Nguyen"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f5fafd",
+     "bodyBgHsl": {
+      "h": 203,
+      "s": 0.67,
+      "l": 0.98
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#a9daf2",
+       "top": 0,
+       "hsl": {
+        "h": 200,
+        "s": 0.74,
+        "l": 0.81
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 191,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#10223a",
+       "top": 2818,
+       "hsl": {
+        "h": 214,
+        "s": 0.57,
+        "l": 0.15
+       }
+      },
+      {
+       "color": "#ff6f1f",
+       "top": 5632,
+       "hsl": {
+        "h": 21,
+        "s": 1,
+        "l": 0.56
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#10223a",
+       "share": 0.79
+      },
+      {
+       "color": "#f5fafd",
+       "share": 0.18
+      },
+      {
+       "color": "#9a3a06",
+       "share": 0.02
+      },
+      {
+       "color": "#a9daf2",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#ff6f1f",
+      "hsl": {
+       "h": 21,
+       "s": 1,
+       "l": 0.56
+      },
+      "fg": "#10223a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": "pill",
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Email me"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.57
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 1495,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm serif display",
+     "karla"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 6820,
+    "margins": {
+     "left": 23,
+     "right": 28
+    },
+    "sections": [
+     {
+      "sel": "header.cover",
+      "tag": "header",
+      "top": 0,
+      "height": 1495,
+      "words": 55,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Tien Nguyen",
+       "size": 115,
+       "tag": "h1"
+      },
+      "left": 23,
+      "right": 47,
+      "textLeft": 23,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.spread",
+      "tag": "section",
+      "top": 1495,
+      "height": 1324,
+      "words": 90,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "The SQL gym on the Drillfield",
+       "size": 61,
+       "tag": "h2"
+      },
+      "left": 23,
+      "right": 24,
+      "textLeft": 23,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.spread.alt",
+      "tag": "section",
+      "top": 2818,
+      "height": 1324,
+      "words": 73,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Orion reads every page",
+       "size": 61,
+       "tag": "h2"
+      },
+      "left": 23,
+      "right": 28,
+      "textLeft": 23,
+      "textRight": 39,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article",
+      "tag": "article",
+      "top": 4368,
+      "height": 613,
+      "words": 23,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Safe streets, by text",
+       "size": 30,
+       "tag": "h3"
+      },
+      "left": 47,
+      "right": 47,
+      "textLeft": 47,
+      "textRight": 72,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article",
+      "tag": "article",
+      "top": 4994,
+      "height": 631,
+      "words": 21,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Team Valkyrie takes off",
+       "size": 30,
+       "tag": "h3"
+      },
+      "left": 40,
+      "right": 40,
+      "textLeft": 40,
+      "textRight": 103,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article",
+      "tag": "article",
+      "top": 5632,
+      "height": 628,
+      "words": 30,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Aircraft design in a browser",
+       "size": 30,
+       "tag": "h3"
+      },
+      "left": 41,
+      "right": 44,
+      "textLeft": 51,
+      "textRight": 76,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contact",
+      "tag": "footer",
+      "top": 6412,
+      "height": 408,
+      "words": 46,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Write in",
+       "size": 108,
+       "tag": "h2"
+      },
+      "left": 23,
+      "right": 133,
+      "textLeft": 23,
+      "textRight": 133,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 2640,
+      "height": 320
+     },
+     {
+      "top": 3980,
+      "height": 308
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Tien Nguyen",
+      "size": 115,
+      "top": 84,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 23,
+      "n": 11
+     },
+     {
+      "x": 40,
+      "n": 4
+     },
+     {
+      "x": 51,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 17,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    1,
+    0.6,
+    0.66,
+    1,
+    0.74,
+    0.92,
+    0.84
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 5656,
+     "screens": 6.7,
+     "words": 334,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "me.jpg",
+      "virginia-tech-burruss-hall-from-drillfield.jpg",
+      "richmond-virginia-skyline-march-2025.jpg",
+      "king-street-alexandria-22-september-2023-43.jpg",
+      "university-of-texas-at-arlington-march-2021.jpg",
+      "a-usaf-f-16-pilot-breaking-right.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Tien Nguyen",
+     "words": 2,
+     "chars": 11,
+     "lines": 1,
+     "size": 64,
+     "vw": 16.4,
+     "font": "DM Serif Display",
+     "weight": 400,
+     "tracking": -0.04,
+     "leading": 0.85,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 112,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Tien Nguyen",
+     "words": 2,
+     "lines": 1,
+     "size": 64,
+     "font": "DM Serif Display"
+    },
+    "headings": [
+     {
+      "text": "Tien Nguyen",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 64,
+      "vw": 16.4,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.85,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 112,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "A travel magazine about my work as a Virginia Tech CS student, class of December 2026.",
+      "words": 16,
+      "chars": 86,
+      "lines": 5,
+      "size": 22,
+      "vw": 5.6,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.57,
+      "top": 563,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Blacksburg The SQL gym 170 students worked out in",
+      "words": 9,
+      "chars": 49,
+      "lines": 4,
+      "size": 22,
+      "vw": 5.6,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.57,
+      "top": 706,
+      "mixedFonts": [
+       "DM Serif Display",
+       "Karla"
+      ],
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Richmond How to catch a phishing site in real time",
+      "words": 10,
+      "chars": 50,
+      "lines": 4,
+      "size": 22,
+      "vw": 5.6,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.57,
+      "top": 825,
+      "mixedFonts": [
+       "DM Serif Display",
+       "Karla"
+      ],
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Arlington, TX Flying a 3D-printed plane with an Xbox controller",
+      "words": 10,
+      "chars": 63,
+      "lines": 4,
+      "size": 22,
+      "vw": 5.6,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.57,
+      "top": 945,
+      "mixedFonts": [
+       "DM Serif Display",
+       "Karla"
+      ],
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "The SQL gym on the Drillfield",
+      "words": 6,
+      "chars": 29,
+      "lines": 3,
+      "size": 56,
+      "vw": 14.4,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.88,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1251,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "DBWorkout turns database homework into a workout, with reps, feedback and a leaderboard.",
+      "words": 13,
+      "chars": 88,
+      "lines": 3,
+      "size": 22,
+      "vw": 5.6,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1439,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "170 students, 90% said it helped them learn.",
+      "words": 8,
+      "chars": 44,
+      "lines": 2,
+      "size": 22,
+      "vw": 5.6,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.84,
+      "top": 2081,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Orion reads every page",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 56,
+      "vw": 14.4,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.03,
+      "leading": 0.88,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2513,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "300+ signals, one verdict, and the reason why.",
+      "words": 8,
+      "chars": 46,
+      "lines": 2,
+      "size": 22,
+      "vw": 5.6,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.84,
+      "top": 2838,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "An AI browser extension that spots phishing in real time and teaches you what gave it away.",
+      "words": 17,
+      "chars": 91,
+      "lines": 3,
+      "size": 22,
+      "vw": 5.6,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2990,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Also in this issue",
+      "words": 4,
+      "chars": 18,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3671,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Safe streets, by text",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 3754,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Team Valkyrie takes off",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.8,
+      "top": 4192,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Aircraft design in a browser",
+      "words": 5,
+      "chars": 28,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.05,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.8,
+      "top": 4638,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Write in",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 72,
+      "vw": 18.5,
+      "font": "DM Serif Display",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.85,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 5354,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 16,
+     "maxLines": 5,
+     "over2Lines": 1,
+     "statements": 8,
+     "centered": 0,
+     "medianWords": 8,
+     "mixedFontHeadings": 3
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Karla",
+       "share": 0.67,
+       "mono": false
+      },
+      {
+       "family": "DM Serif Display",
+       "share": 0.33,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      18,
+      22,
+      30,
+      48,
+      56,
+      64,
+      72
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "Karla",
+      "size": 18,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.2
+     },
+     "measureChars": 51,
+     "max": {
+      "size": 72,
+      "vw": 18.5,
+      "font": "DM Serif Display",
+      "text": "Write in"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f5fafd",
+     "bodyBgHsl": {
+      "h": 203,
+      "s": 0.67,
+      "l": 0.98
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#a9daf2",
+       "top": 0,
+       "hsl": {
+        "h": 200,
+        "s": 0.74,
+        "l": 0.81
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 183,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#10223a",
+       "top": 2353,
+       "hsl": {
+        "h": 214,
+        "s": 0.57,
+        "l": 0.15
+       }
+      },
+      {
+       "color": "#ff6f1f",
+       "top": 4614,
+       "hsl": {
+        "h": 21,
+        "s": 1,
+        "l": 0.56
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#10223a",
+       "share": 0.79
+      },
+      {
+       "color": "#f5fafd",
+       "share": 0.18
+      },
+      {
+       "color": "#9a3a06",
+       "share": 0.02
+      },
+      {
+       "color": "#a9daf2",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#ff6f1f",
+      "hsl": {
+       "h": 21,
+       "s": 1,
+       "l": 0.56
+      },
+      "fg": "#10223a"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 1,
+     "radius": "pill",
+     "height": 84,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Email me"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.3
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 1091,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm serif display",
+     "karla"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 5656,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "header.cover",
+      "tag": "header",
+      "top": 0,
+      "height": 1091,
+      "words": 55,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Tien Nguyen",
+       "size": 64,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 50,
+      "textLeft": 16,
+      "textRight": 50,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.spread",
+      "tag": "section",
+      "top": 1091,
+      "height": 1263,
+      "words": 90,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "The SQL gym on the Drillfield",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 20,
+      "textLeft": 16,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.spread.alt",
+      "tag": "section",
+      "top": 2353,
+      "height": 1158,
+      "words": 73,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Orion reads every page",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 16,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article",
+      "tag": "article",
+      "top": 3730,
+      "height": 426,
+      "words": 23,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Safe streets, by text",
+       "size": 30,
+       "tag": "h3"
+      },
+      "left": 40,
+      "right": 40,
+      "textLeft": 40,
+      "textRight": 64,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article",
+      "tag": "article",
+      "top": 4167,
+      "height": 439,
+      "words": 21,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Team Valkyrie takes off",
+       "size": 30,
+       "tag": "h3"
+      },
+      "left": 35,
+      "right": 35,
+      "textLeft": 35,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article",
+      "tag": "article",
+      "top": 4614,
+      "height": 465,
+      "words": 30,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Aircraft design in a browser",
+       "size": 30,
+       "tag": "h3"
+      },
+      "left": 36,
+      "right": 40,
+      "textLeft": 40,
+      "textRight": 42,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contact",
+      "tag": "footer",
+      "top": 5234,
+      "height": 422,
+      "words": 46,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Write in",
+       "size": 72,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 16,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 2172,
+      "height": 324
+     },
+     {
+      "top": 3348,
+      "height": 308
+     },
+     {
+      "top": 5056,
+      "height": 276
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Tien Nguyen",
+      "size": 64,
+      "top": 112,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "Through the CCI PREP internship, with weekly mento",
+      "side": "right",
+      "px": 16
+     }
+    ],
+    "edges": [
+     {
+      "x": 16,
+      "n": 11
+     },
+     {
+      "x": 35,
+      "n": 6
+     }
+    ],
+    "leftBlocks": 17,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "statement-length",
+   "width": 1440,
+   "message": "4 large-set statement(s) run past 3 lines at 1440px: \"A travel magazine about my work as a Vir…\" → 5 lines at 31.7px; \"Blacksburg The SQL gym 170 students work…\" → 4 lines at 31.7px; \"Richmond How to catch a phishing site in…\" → 4 lines at 31.7px",
+   "fix": "A statement set large is about 30 words. Cut it, or set the rest as ordinary body text.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "mixed-font-headline",
+   "width": 1440,
+   "message": "3 headline(s) switch typeface or to italic mid-line (the \"one italic serif word\" move).",
+   "fix": "Set the whole headline in one face. Emphasis comes from the words.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "measure",
+   "width": 1440,
+   "message": "Longest paragraph runs about 89 characters per line.",
+   "fix": "Cap paragraphs at 45–75 characters (max-width: 60ch).",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "1 headline(s) wrap past two lines at 390px: \"The SQL gym on the Drillfield\" → 3 lines (6 words, 56px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  },
+  {
+   "level": "WARN",
+   "id": "edge-text",
+   "width": 390,
+   "message": "1 text block(s) sit 12–15px from the phone's edge: \"Through the CCI PREP internshi\" (16px)",
+   "fix": "The page margin is 16–20px on a phone; the header and the corner labels sit on it too."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\c-magazine\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\c-magazine\\desktop-page-01.jpg",
+    "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\c-magazine\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\c-magazine\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\c-magazine\\tablet-page-01.jpg",
+    "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\c-magazine\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\c-magazine\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\PC\\Desktop\\Resume\\portfolio\\.taste-skill\\inspect\\c-magazine\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
