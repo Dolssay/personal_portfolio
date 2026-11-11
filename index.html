@@ -16,6 +16,7 @@
   HOW TO SHOW A PROJECT
   Every project is a <section class="project ...">. Change one class:
     class="project feature"  → a full project section, linked from the top of the page
+                               (add "alt" for the dark version with the picture on the left)
     class="project note"     → just its title and description, pinned on the
                                "More work" wall at the end
   data-place and data-line are what the cover shows for a feature.
@@ -31,32 +32,59 @@
   </nav>
   <h1 class="masthead" aria-label="Tien Nguyen"><span>Tien</span> <span>Nguyen</span></h1>
   <div class="lines" id="cover-lines">
-    <p class="who" data-reveal>I build software, data tools and research platforms. Computer science at Virginia Tech, graduating December 2026.</p>
+    <div class="who" data-reveal>
+      <p>I build software, data tools and research how people interact with them. Computer science at Virginia Tech, graduated December 2026.</p>
+      <p>For my hobbies I like cooking, playing board games and hiking!</p>
+      <p>Welcome to my personal website!</p>
+    </div>
     <!-- cover lines for each feature are added here by main.js -->
   </div>
   <figure class="cover-photo torn" data-reveal><img src="assets/me.jpg" width="1200" height="1600" alt="Tien Nguyen outdoors under autumn leaves"></figure>
 </header>
 
 <main id="features">
-  <section class="project feature" id="orion" data-place="Richmond" data-line="Catching phishing sites live">
-    <h2 data-reveal>Orion reads every page</h2>
-    <p class="deck" data-reveal>An AI browser extension that spots phishing live and shows what gave the page away.</p>
+  <section class="project feature" id="dbworkout" data-place="Blacksburg" data-line="The SQL gym over 170 students worked out in">
+    <h2 data-reveal>The SQL gym</h2>
+    <p class="deck" data-reveal>A gamified SQL learning platform, from the schema to the production server.</p>
     <div class="body" data-reveal>
-      <p>In the Commonwealth Cyber Initiative's PREP internship, with weekly mentoring from Parsons engineers, our team of three built Orion. I trained XGBoost models on AWS SageMaker over 300+ website security signals and built the Chrome extension that reports to Amazon API Gateway.</p>
-      <p>We ran a booth and a live demo at the CCI Symposium 2026 in Richmond.</p>
-      <p><a class="go" href="https://business.gmu.edu/news/2026-06/student-research-advances-phishing-detection-and-cybersecurity-innovation">Read the George Mason story</a></p>
+      <p>I am the Project Lead and Full Stack Engineer for DBWorkout, a gamified SQL learning platform led by Professor Sehrish Basir Nizamani. I designed the initial database schema and backend logic, and I own the DevOps for the production server: monitoring the CI/CD pipelines on Kubernetes through Virginia Tech’s Rancher, and Alembic database migrations that keep schema changes safe for live classrooms.</p>
+      <p>I am leading a 16-person lab building VT Portal login, Canvas LTI 1.3 integration, and accessibility features. The platform has been used in live classrooms with over 170 undergraduates.</p>
+      <p><a class="go" href="https://dbworkout.cs.vt.edu">Visit dbworkout.cs.vt.edu</a></p>
     </div>
-    <div class="art">
-      <figure class="torn tilt-r" data-reveal><img src="assets/symposium-orion-booth.jpg" width="1600" height="1066" loading="lazy" alt="Tien Nguyen with Taylor Le, Richard Nguyen and Brian Ngac at the Orion booth, with the live phishing alert on screen"><figcaption>At the Orion booth, CCI Symposium 2026. From left: Tien Nguyen, Taylor Le, Richard Nguyen, Brian Ngac. Photo by Brian Ngac.</figcaption></figure>
-      <p class="pull" data-reveal>300+ signals, one verdict, and the reason why.</p>
+    <div class="art stacks">
+      <div class="stack previews" data-stack data-reveal role="group" aria-label="DBWorkout previews" style="--ratio: 19 / 10">
+        <span class="tape" aria-hidden="true">Previews</span>
+        <div class="paper">
+          <div class="shots">
+            <img class="on" src="assets/dbworkout/preview-course-dashboard.jpg" width="1600" height="845" loading="lazy" alt="DBWorkout course dashboard for Database Management Systems, with student progress by subquery set" data-caption="Course dashboard: Database Management Systems">
+            <img src="assets/dbworkout/preview-question-bank.jpg" width="1600" height="837" loading="lazy" alt="DBWorkout instructor panel showing the question bank" data-caption="Instructor panel: the question bank">
+            <img src="assets/dbworkout/preview-schema-overview.jpg" width="1600" height="831" loading="lazy" alt="DBWorkout schema overview dialog with table diagram and column notes" data-caption="Schema overview for a practice set">
+            <img src="assets/dbworkout/preview-workout.jpg" width="1600" height="843" loading="lazy" alt="A DBWorkout exercise: task description, sample tables and a SQL editor" data-caption="A workout: write the query, run it, check it">
+          </div>
+          <p class="cap" aria-live="polite">Course dashboard: Database Management Systems</p>
+        </div>
+      </div>
+      <div class="stack conferences" data-stack data-reveal role="group" aria-label="DBWorkout at conferences" style="--ratio: 1 / 1">
+        <span class="tape" aria-hidden="true">Conferences</span>
+        <div class="paper">
+          <div class="shots">
+            <img class="on" src="assets/dbworkout/conference-1.jpg" loading="lazy" alt="Tien Nguyen with the DBWorkout lab team at a conference" data-caption="Presenting DBWorkout with the lab team">
+            <img src="assets/dbworkout/conference-2.jpg" loading="lazy" alt="Tien Nguyen holding a tablet beside the DBWorkout poster" data-caption="Walking visitors through the poster">
+            <img src="assets/dbworkout/conference-3.jpg" loading="lazy" alt="Two presenters beside the DBWorkout poster" data-caption="Poster session">
+            <img src="assets/dbworkout/conference-4.jpg" loading="lazy" alt="Tien Nguyen and a teammate in front of the DBWorkout poster" data-caption="At the DBWorkout poster">
+          </div>
+          <p class="cap" aria-live="polite">Presenting DBWorkout with the lab team</p>
+        </div>
+      </div>
+      <p class="pull" data-reveal>170 students tried it in class. 90% said it helped them learn.</p>
     </div>
   </section>
 
-  <section class="project feature" id="idopt" data-place="Blacksburg" data-line="42,630 airliners, one screen">
-    <h2 data-reveal>Airliners in a browser</h2>
+  <section class="project feature alt" id="idopt" data-place="Blacksburg" data-line="42,630 designs, one screen">
+    <h2 data-reveal>Engineering tool in a browser</h2>
     <p class="deck" data-reveal>At the IDOPt Lab I put aircraft design studies on the web, thousands of designs at a glance.</p>
     <div class="body" data-reveal>
-      <p>Working with Virginia Tech's aerospace department, I apply Design of Experiments to explore design optimization for an eVTOL, a Boeing 777 and an F-16, then build the visualizations that make tens of thousands of results readable.</p>
+      <p>Working with Virginia Tech's aerospace department, I am currently building the visualizations for a GTB 777 study that make tens of thousands of results readable.</p>
       <p>The 777 demo links a scatterplot matrix, parallel coordinates, FAA Part 25 certification margins, violin plots and a design-space heatmap across 42,630 designs. With the Information-Rich Virtual Environments Lab we're also hosting GLEE, a high-dimensional calculation tool, on the web.</p>
       <p class="demo-actions"><button class="btn" type="button" id="try-demo">Try the demo here</button> <a class="go" href="https://advanced-design-visualization.vercel.app/demo1/" target="_blank" rel="noopener">Open it in a new tab</a></p>
     </div>
@@ -67,21 +95,31 @@
     </div>
   </section>
 
-  <section class="project note" id="dbworkout" data-place="Blacksburg" data-line="The SQL gym 170 students worked out in">
-    <h2 data-reveal>The SQL gym</h2>
-    <p class="deck" data-reveal>DBWorkout, a gamified SQL practice platform. As student lead I built its database and API, and 170 students have trained on it in class.</p>
+  <section class="project feature" id="orion" data-place="Richmond" data-line="Catching phishing sites live">
+    <h2 data-reveal>Orion reads every page</h2>
+    <p class="deck" data-reveal>An AI browser extension that spots phishing live and shows what gave the page away.</p>
     <div class="body" data-reveal>
-      <p>I joined Virginia Tech's Human–AI Interaction and Computing Education Lab in Spring 2025 and became DBWorkout's student lead. I designed its PostgreSQL schema with SQLAlchemy, wrote authentication for 80 API endpoints with JWT and shipped Alembic migrations and Kubernetes deploys on VT's Rancher.</p>
-      <p>Now I lead a 16-person team adding VT login, Canvas LTI 1.3 and accessibility. Our work was presented at FIE 2026 and the FutureHCI 2026 workshop.</p>
-      <p><a class="go" href="https://dbworkout.cs.vt.edu">Visit dbworkout.cs.vt.edu</a></p>
+      <p>In the Commonwealth Cyber Initiative's PREP internship, with weekly mentoring from Parsons engineers, our team of three built Orion. I trained XGBoost models on AWS SageMaker over 300+ website security signals and built the Chrome extension that reports to Amazon API Gateway.</p>
+      <p>We ran a booth and a live demo at the CCI Symposium 2026 in Richmond.</p>
+      <p><a class="go" href="https://business.gmu.edu/news/2026-06/student-research-advances-phishing-detection-and-cybersecurity-innovation">Read the George Mason story</a></p>
     </div>
     <div class="art">
-      <!-- add a photo or screenshot here, then switch the class to "feature" -->
-      <p class="pull" data-reveal>170 students tried it in class. 90% said it helped them learn.</p>
+      <!-- PHOTO STACK: add an <img> inside .shots to add a slide; data-caption is shown under it -->
+      <div class="stack tilt-r" data-stack data-reveal role="group" aria-label="Orion photos" style="--ratio: 3 / 2">
+        <div class="paper">
+          <div class="shots">
+            <img class="on" src="assets/symposium-orion-booth.jpg" width="1600" height="1066" loading="lazy" alt="Tien Nguyen with Taylor Le, Richard Nguyen and Brian Ngac at the Orion booth, with the live phishing alert on screen" data-caption="At the Orion booth, CCI Symposium 2026. From left: Tien Nguyen, Taylor Le, Richard Nguyen, Brian Ngac. Photo by Brian Ngac.">
+            <img src="assets/orion-demo.jpg" loading="lazy" alt="Tien Nguyen demonstrating Orion to a professor" data-caption="Demonstrating Orion to a professor at the CCI Symposium 2026.">
+          </div>
+          <p class="cap" aria-live="polite">At the Orion booth, CCI Symposium 2026. From left: Tien Nguyen, Taylor Le, Richard Nguyen, Brian Ngac. Photo by Brian Ngac.</p>
+        </div>
+      </div>
+      <p class="pull" data-reveal>300+ signals, one verdict, and a customized training.</p>
     </div>
   </section>
 
   <section class="project note" id="safe-streets" data-place="Alexandria" data-line="A street-safety survey you answer by text">
+    <img class="thumb" src="assets/nova-safe-streets-logo.png" width="150" height="150" alt="NoVA Families for Safe Streets logo">
     <h2 data-reveal>Safe streets, by text</h2>
     <p class="deck" data-reveal>For NoVA Families for Safe Streets, I led a team of three to turn their web survey into a 10-question SMS survey on Twilio.</p>
     <div class="body" data-reveal>
@@ -107,6 +145,22 @@
       <p><i>When More Attempts Makes Things Worse: Check-Level Visualization for Uncovering Hidden Struggle Patterns in SQL Learning</i>, FutureHCI 2026.</p>
     </div>
     <div class="art"></div>
+  </section>
+
+  <!-- FLIP NOTE: a taped photo on the wall; clicking flips it to the description on the back -->
+  <section class="project note flip" id="llm-usability">
+    <div class="flip-card">
+      <div class="face front">
+        <img src="assets/llm-usability-poster.jpg" loading="lazy" alt="Tien Nguyen beside the research poster on LLM usability evaluation">
+        <p class="front-title"><span>Other research</span>
+          <span class="hint" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M3 12a9 9 0 0 1 15.5-6.2L21 8M21 3v5h-5M21 12a9 9 0 0 1-15.5 6.2L3 16M3 21v-5h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>click me</span></p>
+      </div>
+      <div class="face back">
+        <h2>Can an LLM spot usability issues?</h2>
+        <p>This project explores how a large language model (LLM) performs in identifying usability issues on university websites using Nielsen’s 10 Usability Heuristics. A standardized prompt template and a single link, the homepage of each of ten university websites, were provided to the LLM. The study focused on whether the LLM could recognize common usability concerns such as consistency, visibility of system status, and error prevention. All websites were evaluated using the same prompt structure to ensure consistency across responses.</p>
+      </div>
+    </div>
+    <button class="flip-hit" type="button" aria-pressed="false" aria-label="Flip the card to read about the LLM usability research"></button>
   </section>
 
   <section class="wall" id="notes">

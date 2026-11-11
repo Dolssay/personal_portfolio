@@ -59,6 +59,7 @@ figcaption { font-size: 16px; padding-top: 10px; }
 
 .lines { grid-column: 1 / 7; display: flex; flex-direction: column; gap: 24px; margin-top: 40px; }
 .who { font-size: 22px; max-width: 36ch; }
+.who p + p { margin-top: 14px; }
 .line { display: block; text-decoration: none; font: 400 30px/1.12 "DM Serif Display"; max-width: 30ch; transition: transform .2s var(--ease); }
 .line b { display: block; font: 800 18px/1.4 "Karla"; color: var(--orange-ink); }
 .line:hover { transform: translateX(8px); }
@@ -100,6 +101,42 @@ figcaption { font-size: 16px; padding-top: 10px; }
 .screen iframe { display: block; width: 100%; height: 78svh; border: 0; background: #fff; }
 .demo-actions { display: flex; gap: 20px; align-items: center; flex-wrap: wrap; margin-top: 28px !important; }
 
+/* taped photo stack: one slide on top, paper sheets behind, arrows on the photo */
+.stack { position: relative; color: var(--ink); }
+.stack::before, .stack::after { content: ""; position: absolute; inset: 0; background: #fff; box-shadow: 0 6px 18px rgb(16 34 58 / .12); }
+.stack::before { rotate: 3.5deg; translate: 14px -6px; }
+.stack::after { rotate: -3deg; translate: -8px 10px; }
+.stack .paper { position: relative; z-index: 1; background: #fff; padding: 14px; box-shadow: 0 6px 18px rgb(16 34 58 / .12); }
+.shots { position: relative; aspect-ratio: var(--ratio, 3 / 2); overflow: hidden; background: var(--sky-2); }
+.shots img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; opacity: 0; visibility: hidden; transition: opacity .35s, visibility 0s .35s; }
+.shots img.on { opacity: 1; visibility: visible; transition: opacity .35s; }
+.cap { font-size: 16px; padding-top: 10px; min-height: 2.6em; }
+.stack-nav { position: absolute; right: 12px; bottom: 12px; z-index: 2; display: flex; gap: 8px; align-items: center; }
+.stack-nav button { width: 44px; height: 44px; border: 0; border-radius: 50%; background: var(--orange); color: var(--ink); cursor: pointer; display: grid; place-items: center; box-shadow: 0 2px 6px rgb(16 34 58 / .25); transition: transform .2s var(--ease); }
+.stack-nav button:hover { transform: scale(1.08); }
+.stack-nav button:active { transform: scale(.94); }
+.stack-nav .count { background: rgb(255 255 255 / .92); padding: 6px 12px; border-radius: 999px; font: 800 14px "Karla"; }
+.tape { position: absolute; z-index: 3; top: -14px; left: 50%; translate: -50% 0; rotate: -4deg; background: var(--orange); padding: 4px 18px; font: 800 15px "Karla"; letter-spacing: .08em; text-transform: uppercase; }
+
+/* expand button (top right of every photo) and the full-size view it opens */
+.cover-photo, .face.front { position: relative; }
+.expand { position: absolute; top: 24px; right: 24px; z-index: 4; width: 36px; height: 36px; border: 0; border-radius: 50%; display: grid; place-items: center; background: rgb(255 255 255 / .9); color: var(--ink); cursor: zoom-in; box-shadow: 0 2px 6px rgb(16 34 58 / .25); transition: transform .2s var(--ease); }
+.shots .expand { top: 12px; right: 12px; }
+.expand:hover { transform: scale(1.1); }
+.flip.flipped .expand { display: none; }
+.lightbox { margin: auto; border: 0; padding: 14px; background: #fff; color: var(--ink); max-width: 94vw; overflow: visible; }
+.lightbox::backdrop { background: rgb(16 34 58 / .85); }
+.lightbox img { max-width: 100%; max-height: 80vh; width: auto; margin: auto; }
+.lightbox p { font-size: 16px; padding-top: 10px; max-width: 70ch; }
+.lightbox .close { position: absolute; top: -18px; right: -18px; width: 40px; height: 40px; border: 0; border-radius: 50%; background: var(--orange); color: var(--ink); font: 800 26px/1 "Karla"; cursor: pointer; }
+
+/* DBWorkout: previews on top, conferences tucked under, the pull note beside */
+.stacks { display: grid; grid-template-columns: repeat(6, 1fr); align-items: start; }
+.stacks .previews { grid-column: 1 / -1; rotate: -1.2deg; }
+.stacks .conferences { grid-column: 1 / 5; grid-row: 2; margin-top: 64px; rotate: 2deg; }
+/* the note sits right of the conference stack so its arrows stay clear */
+.stacks .pull { grid-column: 5 / 7; grid-row: 2; align-self: end; width: auto; margin: 0 calc(8px - var(--m)) -24px 20px; font-size: 24px; z-index: 2; }
+
 /* ---------- the wall of notes ---------- */
 .wall { background: var(--sky-2); padding: var(--gap) var(--m); }
 .wall h2 { font: 400 clamp(52px, 7.6vw, 120px) / .9 "DM Serif Display"; letter-spacing: -.03em; margin-bottom: 72px; }
@@ -112,7 +149,23 @@ figcaption { font-size: 16px; padding-top: 10px; }
 .project.note:hover { transform: rotate(0) translateY(-6px); }
 .note h2 { font: 400 30px/1.1 "DM Serif Display"; margin-bottom: 14px; }
 .note .body, .note .art { display: none; }
+.note .thumb { float: right; width: 72px; margin: -8px -6px 8px 12px; }
 .wall [hidden] { display: none; }
+
+/* flip note: photo on the front, the description on the back */
+.project.note.flip { padding: 0; background: none; perspective: 1400px; }
+.note.flip::before { z-index: 2; }
+.flip-card { display: grid; transform-style: preserve-3d; transition: transform .7s var(--ease); }
+.flip.flipped .flip-card { transform: rotateY(180deg); }
+.face { grid-area: 1 / 1; backface-visibility: hidden; -webkit-backface-visibility: hidden; background: #fff; }
+.face.front { padding: 14px 14px 16px; display: flex; flex-direction: column; }
+.face.front img { width: 100%; flex: 1; min-height: 240px; object-fit: cover; object-position: 30% 50%; background: var(--sky-2); }
+.front-title { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding-top: 12px; font: 400 26px/1.1 "DM Serif Display"; }
+.hint { display: inline-flex; align-items: center; gap: 4px; font: 800 14px "Karla"; opacity: .45; white-space: nowrap; transition: opacity .2s; }
+.flip:hover .hint { opacity: .8; }
+.face.back { transform: rotateY(180deg); background: var(--sky); padding: 36px 28px 28px; }
+.face.back p { font-size: 15px; line-height: 1.45; }
+.flip-hit { position: absolute; inset: 0; z-index: 3; width: 100%; border: 0; background: none; cursor: pointer; }
 
 /* ---------- passport ---------- */
 .passport { display: grid; grid-template-columns: repeat(12, 1fr); gap: var(--m); padding: var(--gap) var(--m); align-items: center; }
@@ -159,13 +212,16 @@ footer .masthead { margin: 0; animation-duration: 34s; font-size: clamp(48px, 10
   .feature .deck, .pull, .line, .contact-line { font-size: 24px; }
   .who, .passport-text p { font-size: 20px; }
   .top .issue { font-size: 16px; }
-  .screens { display: block; }
+  .screens, .stacks { display: block; }
+  .stacks .conferences { width: 88%; }
+  .stacks .pull { margin: 40px 0 0 auto; width: min(80%, 420px); }
   .screen.small { margin: 32px 0 0 20%; }
   .screen iframe { height: 70svh; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .masthead, .page.in, .page.in .stamp { animation: none; }
+  .flip-card, .shots img { transition: none; }
   .js [data-reveal] { opacity: 1; transform: none; transition: none; }
   .js .page:not(.in) .stamp { opacity: 1; }
 }
